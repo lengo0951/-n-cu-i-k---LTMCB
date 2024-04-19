@@ -5,7 +5,7 @@ Nhóm 8 :
   - Hồ Vỉ Khánh
   - Nguyễn Duy Hùng
 ### B1:
-  https://github.com/lengo0951/LTMCB-DoAnCuoiKy.git
+  git clone https://github.com/lengo0951/LTMCB-DoAnCuoiKy.git
 ### B2:
   Ctrl + Shift + B
 ### B3:
