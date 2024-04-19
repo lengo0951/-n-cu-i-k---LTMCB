@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TableTick.Forms
 {
-    public partial class FormTasks : Form
+    public partial class Setting : Form
     {
-        public FormTasks()
+        public Setting()
         {
             InitializeComponent();
         }

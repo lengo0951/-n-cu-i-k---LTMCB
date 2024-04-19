@@ -1,6 +1,6 @@
 ﻿namespace TableTick.Forms
 {
-    partial class FormHome
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.

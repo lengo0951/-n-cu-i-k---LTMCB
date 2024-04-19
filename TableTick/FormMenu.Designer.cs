@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
             panelMenu = new Panel();
             btnSetting = new Button();
             btnCalendar = new Button();
@@ -38,11 +39,17 @@
             panelLogo = new Panel();
             label1 = new Label();
             panelTitleBar = new Panel();
+            btnCloseChildForm = new Button();
             lblTitle = new Label();
             panelDesktopPane = new Panel();
+            panel2 = new Panel();
+            textBox1 = new TextBox();
+            panel1 = new Panel();
             panelMenu.SuspendLayout();
             panelLogo.SuspendLayout();
             panelTitleBar.SuspendLayout();
+            panelDesktopPane.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panelMenu
@@ -58,7 +65,7 @@
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(200, 567);
+            panelMenu.Size = new Size(200, 489);
             panelMenu.TabIndex = 0;
             // 
             // btnSetting
@@ -188,12 +195,26 @@
             // panelTitleBar
             // 
             panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
+            panelTitleBar.Controls.Add(btnCloseChildForm);
             panelTitleBar.Controls.Add(lblTitle);
             panelTitleBar.Dock = DockStyle.Top;
             panelTitleBar.Location = new Point(200, 0);
             panelTitleBar.Name = "panelTitleBar";
-            panelTitleBar.Size = new Size(600, 80);
+            panelTitleBar.Size = new Size(827, 80);
             panelTitleBar.TabIndex = 1;
+            // 
+            // btnCloseChildForm
+            // 
+            btnCloseChildForm.Dock = DockStyle.Left;
+            btnCloseChildForm.FlatAppearance.BorderSize = 0;
+            btnCloseChildForm.FlatStyle = FlatStyle.Flat;
+            btnCloseChildForm.Image = Properties.Resources.close1;
+            btnCloseChildForm.Location = new Point(0, 0);
+            btnCloseChildForm.Name = "btnCloseChildForm";
+            btnCloseChildForm.Size = new Size(25, 80);
+            btnCloseChildForm.TabIndex = 1;
+            btnCloseChildForm.UseVisualStyleBackColor = true;
+            btnCloseChildForm.Click += btnCloseChildForm_Click;
             // 
             // lblTitle
             // 
@@ -201,7 +222,7 @@
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Bold, GraphicsUnit.Point);
             lblTitle.ForeColor = Color.White;
-            lblTitle.Location = new Point(280, 28);
+            lblTitle.Location = new Point(393, 28);
             lblTitle.Name = "lblTitle";
             lblTitle.Size = new Size(68, 25);
             lblTitle.TabIndex = 0;
@@ -210,27 +231,69 @@
             // 
             // panelDesktopPane
             // 
+            panelDesktopPane.Controls.Add(panel2);
             panelDesktopPane.Dock = DockStyle.Fill;
             panelDesktopPane.Location = new Point(200, 80);
             panelDesktopPane.Name = "panelDesktopPane";
-            panelDesktopPane.Size = new Size(600, 487);
+            panelDesktopPane.Size = new Size(827, 409);
             panelDesktopPane.TabIndex = 2;
+            panelDesktopPane.Paint += panelDesktopPane_Paint;
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(textBox1);
+            panel2.Controls.Add(panel1);
+            panel2.Location = new Point(22, 6);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(531, 25);
+            panel2.TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = SystemColors.Window;
+            textBox1.Dock = DockStyle.Left;
+            textBox1.ForeColor = SystemColors.WindowFrame;
+            textBox1.Location = new Point(25, 0);
+            textBox1.Margin = new Padding(0);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(503, 23);
+            textBox1.TabIndex = 3;
+            textBox1.Text = "Seach Task";
+            textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // panel1
+            // 
+            panel1.BackgroundImage = Properties.Resources.search_interface_symbol1;
+            panel1.BackgroundImageLayout = ImageLayout.None;
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(25, 25);
+            panel1.TabIndex = 3;
+            panel1.Paint += panel1_Paint;
             // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 567);
+            BackgroundImageLayout = ImageLayout.None;
+            ClientSize = new Size(1027, 489);
             Controls.Add(panelDesktopPane);
             Controls.Add(panelTitleBar);
             Controls.Add(panelMenu);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormMenu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FormMenu";
             panelMenu.ResumeLayout(false);
             panelLogo.ResumeLayout(false);
             panelLogo.PerformLayout();
             panelTitleBar.ResumeLayout(false);
             panelTitleBar.PerformLayout();
+            panelDesktopPane.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -248,5 +311,9 @@
         private Label lblTitle;
         private Label label1;
         private Panel panelDesktopPane;
+        private Button btnCloseChildForm;
+        private Panel panel2;
+        private Panel panel1;
+        private TextBox textBox1;
     }
 }

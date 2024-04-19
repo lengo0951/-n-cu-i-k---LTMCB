@@ -24,7 +24,7 @@ namespace TableTick
         {
             InitializeComponent();
             random = new Random();
-            // btnCloseChildForm.Visible = false;
+            btnCloseChildForm.Visible = false;
             this.Text = string.Empty;
             this.ControlBox = false;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
@@ -61,7 +61,7 @@ namespace TableTick
                     panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                     ThemeColor.PrimaryColor = color;
                     ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
-                    //btnCloseChildForm.Visible = true;
+                    btnCloseChildForm.Visible = true;
                 }
             }
         }
@@ -93,20 +93,15 @@ namespace TableTick
             lblTitle.Text = childForm.Text;
         }
 
-        private void btnCloseChildForm_Click(object sender, EventArgs e)
-        {
-            if (activeForm != null)
-                activeForm.Close();
-            Reset();
-        }
+
         private void Reset()
         {
             DisableButton();
-            // lblTitle.Text = "HOME";
-            //  panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
+            lblTitle.Text = "HOME";
+            panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
             panelLogo.BackColor = Color.FromArgb(39, 39, 58);
             currentButton = null;
-            //  btnCloseChildForm.Visible = false;
+            btnCloseChildForm.Visible = false;
         }
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
@@ -131,32 +126,56 @@ namespace TableTick
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormHome(), sender);
+            OpenChildForm(new Forms.Home(), sender);
         }
 
         private void btnNote_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormNote(), sender);
+            OpenChildForm(new Forms.Note(), sender);
         }
 
         private void btnPlan_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormPlan(), sender);
+            OpenChildForm(new Forms.Plan(), sender);
         }
 
         private void btnTasks_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormTasks(), sender);
+            OpenChildForm(new Forms.Tasks(), sender);
         }
 
         private void btnCalendar_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormCalendar(), sender);
+            OpenChildForm(new Forms.Calendar(), sender);
         }
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormSetting(), sender);
+            OpenChildForm(new Forms.Setting(), sender);
+        }
+
+        private void btnCloseChildForm_Click(object sender, EventArgs e)
+        {
+
+            if (activeForm != null)
+                activeForm.Close();
+            Reset();
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelDesktopPane_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

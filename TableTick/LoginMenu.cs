@@ -8,13 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TableTick.Forms
+namespace TableTick
 {
-    public partial class FormCalendar : Form
+    public partial class LoginMenu : Form
     {
-        public FormCalendar()
+        public LoginMenu()
         {
             InitializeComponent();
+        }
+
+        private void btnSignIn_Click(object sender, EventArgs e)
+        {
+            FormMenu formMenu = new FormMenu();
+            formMenu.Show();
+            this.Hide();
         }
     }
 }

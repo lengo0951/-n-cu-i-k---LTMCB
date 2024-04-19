@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TableTick.Forms
 {
-    public partial class FormNote : Form
+    public partial class Calendar : Form
     {
-        public FormNote()
+        public Calendar()
         {
             InitializeComponent();
         }
