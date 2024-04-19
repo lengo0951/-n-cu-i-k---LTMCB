@@ -4,11 +4,11 @@ Nhóm 8 :
   - Nguyễn Hồ Nhật Khoa
   - Hồ Vỉ Khánh
   - Nguyễn Duy Hùng
-# B1:
+### B1:
   https://github.com/lengo0951/LTMCB-DoAnCuoiKy.git
-# B2:
+### B2:
   Ctrl + Shift + B
-# B3:
+### B3:
   Ctrl + F5
-# B4:
+### B4:
   Tìm chỗ tắt cái app đi
