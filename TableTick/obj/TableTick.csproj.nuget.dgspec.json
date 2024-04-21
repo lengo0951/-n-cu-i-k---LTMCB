@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {}
+    "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {}
   },
   "projects": {
-    "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {
+    "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+        "projectUniqueName": "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
         "projectName": "TableTick",
-        "projectPath": "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+        "projectPath": "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
         "packagesPath": "C:\\Users\\CoolStar\\.nuget\\packages\\",
-        "outputPath": "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\TableTick\\obj\\",
+        "outputPath": "D:\\Course\\Lập trình mạng\\LTMCB-DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CoolStar\\AppData\\Roaming\\NuGet\\NuGet.Config",

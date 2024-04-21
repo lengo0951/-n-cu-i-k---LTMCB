@@ -177,5 +177,10 @@ namespace TableTick
         {
 
         }
+
+        private void cbNoti_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
