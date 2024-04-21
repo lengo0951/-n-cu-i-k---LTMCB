@@ -19,9 +19,16 @@ namespace TableTick
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            FormMenu formMenu = new FormMenu();
-            formMenu.Show();
             this.Hide();
+            FormMenu formMenu = new FormMenu();
+            formMenu.ShowDialog();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            SignupMenu signupMenu = new SignupMenu();
+            signupMenu.ShowDialog();
         }
     }
 }

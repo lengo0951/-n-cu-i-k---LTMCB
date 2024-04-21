@@ -39,7 +39,6 @@
             panelLogo = new Panel();
             label1 = new Label();
             panelTitleBar = new Panel();
-            btnCloseChildForm = new Button();
             lblTitle = new Label();
             panelDesktopPane = new Panel();
             panel3 = new Panel();
@@ -52,11 +51,11 @@
             btnTues = new Button();
             btnMon = new Button();
             panel1 = new Panel();
+            panel4 = new Panel();
+            nmNoti = new NumericUpDown();
+            cbNoti = new CheckBox();
             btnToday = new Button();
             dateTimePicker1 = new DateTimePicker();
-            panel4 = new Panel();
-            cbNoti = new CheckBox();
-            nmNoti = new NumericUpDown();
             panelMenu.SuspendLayout();
             panelLogo.SuspendLayout();
             panelTitleBar.SuspendLayout();
@@ -210,26 +209,12 @@
             // panelTitleBar
             // 
             panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
-            panelTitleBar.Controls.Add(btnCloseChildForm);
             panelTitleBar.Controls.Add(lblTitle);
             panelTitleBar.Dock = DockStyle.Top;
             panelTitleBar.Location = new Point(200, 0);
             panelTitleBar.Name = "panelTitleBar";
             panelTitleBar.Size = new Size(827, 80);
             panelTitleBar.TabIndex = 1;
-            // 
-            // btnCloseChildForm
-            // 
-            btnCloseChildForm.Dock = DockStyle.Left;
-            btnCloseChildForm.FlatAppearance.BorderSize = 0;
-            btnCloseChildForm.FlatStyle = FlatStyle.Flat;
-            btnCloseChildForm.Image = Properties.Resources.close1;
-            btnCloseChildForm.Location = new Point(0, 0);
-            btnCloseChildForm.Name = "btnCloseChildForm";
-            btnCloseChildForm.Size = new Size(25, 80);
-            btnCloseChildForm.TabIndex = 1;
-            btnCloseChildForm.UseVisualStyleBackColor = true;
-            btnCloseChildForm.Click += btnCloseChildForm_Click;
             // 
             // lblTitle
             // 
@@ -357,6 +342,35 @@
             panel1.Size = new Size(818, 46);
             panel1.TabIndex = 0;
             // 
+            // panel4
+            // 
+            panel4.Controls.Add(nmNoti);
+            panel4.Controls.Add(cbNoti);
+            panel4.Dock = DockStyle.Left;
+            panel4.Location = new Point(0, 0);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(232, 46);
+            panel4.TabIndex = 2;
+            // 
+            // nmNoti
+            // 
+            nmNoti.Location = new Point(131, 12);
+            nmNoti.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            nmNoti.Name = "nmNoti";
+            nmNoti.Size = new Size(61, 23);
+            nmNoti.TabIndex = 3;
+            // 
+            // cbNoti
+            // 
+            cbNoti.AutoSize = true;
+            cbNoti.Location = new Point(36, 12);
+            cbNoti.Name = "cbNoti";
+            cbNoti.Size = new Size(89, 19);
+            cbNoti.TabIndex = 0;
+            cbNoti.Text = "Notification";
+            cbNoti.UseVisualStyleBackColor = true;
+            cbNoti.CheckedChanged += cbNoti_CheckedChanged;
+            // 
             // btnToday
             // 
             btnToday.Location = new Point(673, 8);
@@ -373,49 +387,22 @@
             dateTimePicker1.Size = new Size(200, 23);
             dateTimePicker1.TabIndex = 0;
             // 
-            // panel4
-            // 
-            panel4.Controls.Add(nmNoti);
-            panel4.Controls.Add(cbNoti);
-            panel4.Dock = DockStyle.Left;
-            panel4.Location = new Point(0, 0);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(232, 46);
-            panel4.TabIndex = 2;
-            // 
-            // cbNoti
-            // 
-            cbNoti.AutoSize = true;
-            cbNoti.Location = new Point(36, 12);
-            cbNoti.Name = "cbNoti";
-            cbNoti.Size = new Size(89, 19);
-            cbNoti.TabIndex = 0;
-            cbNoti.Text = "Notification";
-            cbNoti.UseVisualStyleBackColor = true;
-            cbNoti.CheckedChanged += cbNoti_CheckedChanged;
-            // 
-            // nmNoti
-            // 
-            nmNoti.Location = new Point(131, 12);
-            nmNoti.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
-            nmNoti.Name = "nmNoti";
-            nmNoti.Size = new Size(61, 23);
-            nmNoti.TabIndex = 3;
-            // 
             // FormMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImageLayout = ImageLayout.None;
+            BackColor = SystemColors.Control;
             ClientSize = new Size(1027, 489);
             Controls.Add(panelDesktopPane);
             Controls.Add(panelTitleBar);
             Controls.Add(panelMenu);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            ForeColor = SystemColors.ActiveCaptionText;
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FormMenu";
+            ShowIcon = false;
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "FormMenu";
+            Text = "TableTick";
             panelMenu.ResumeLayout(false);
             panelLogo.ResumeLayout(false);
             panelLogo.PerformLayout();
@@ -444,7 +431,6 @@
         private Label lblTitle;
         private Label label1;
         private Panel panelDesktopPane;
-        private Button btnCloseChildForm;
         private Panel panel1;
         private Panel panel3;
         private Panel panel2;

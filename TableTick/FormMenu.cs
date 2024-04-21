@@ -18,15 +18,13 @@ namespace TableTick
         private Button currentButton;
         private Random random;
         private int tempIndex;
-        private Form activeForm;
         //Constructor
         public FormMenu()
         {
             InitializeComponent();
             random = new Random();
-            btnCloseChildForm.Visible = false;
             this.Text = string.Empty;
-            this.ControlBox = false;
+            this.ControlBox = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -61,7 +59,6 @@ namespace TableTick
                     panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                     ThemeColor.PrimaryColor = color;
                     ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
-                    btnCloseChildForm.Visible = true;
                 }
             }
         }
@@ -79,10 +76,8 @@ namespace TableTick
         }
         private void OpenChildForm(Form childForm, object btnSender)
         {
-            if (activeForm != null)
-                activeForm.Close();
+
             ActivateButton(btnSender);
-            activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
@@ -100,8 +95,6 @@ namespace TableTick
             lblTitle.Text = "HOME";
             panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
             panelLogo.BackColor = Color.FromArgb(39, 39, 58);
-            currentButton = null;
-            btnCloseChildForm.Visible = false;
         }
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
@@ -154,14 +147,6 @@ namespace TableTick
             OpenChildForm(new Forms.Setting(), sender);
         }
 
-        private void btnCloseChildForm_Click(object sender, EventArgs e)
-        {
-
-            if (activeForm != null)
-                activeForm.Close();
-            Reset();
-
-        }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -182,5 +167,6 @@ namespace TableTick
         {
 
         }
+
     }
 }

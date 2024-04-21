@@ -77,7 +77,7 @@
             textBox1.Size = new Size(241, 23);
             textBox1.TabIndex = 4;
             // 
-            // FormHome
+            // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -87,8 +87,8 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(panel1);
-            Name = "FormHome";
-            Text = "FormHome";
+            Name = "Home";
+            Text = "Home";
             ResumeLayout(false);
             PerformLayout();
         }

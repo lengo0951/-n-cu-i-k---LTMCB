@@ -37,7 +37,8 @@
             label1 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             btnSignIn = new Button();
-            button2 = new Button();
+            label2 = new Label();
+            linkLabel1 = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -57,7 +58,7 @@
             labelLogin.AutoSize = true;
             labelLogin.Font = new Font("Century", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             labelLogin.ForeColor = Color.DarkOrchid;
-            labelLogin.Location = new Point(530, 83);
+            labelLogin.Location = new Point(537, 69);
             labelLogin.Name = "labelLogin";
             labelLogin.Size = new Size(174, 25);
             labelLogin.TabIndex = 1;
@@ -66,33 +67,35 @@
             // labelUsername
             // 
             labelUsername.AutoSize = true;
-            labelUsername.Font = new Font("Century", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelUsername.Location = new Point(465, 144);
+            labelUsername.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            labelUsername.Location = new Point(472, 113);
             labelUsername.Name = "labelUsername";
-            labelUsername.Size = new Size(85, 20);
+            labelUsername.Size = new Size(69, 17);
             labelUsername.TabIndex = 2;
             labelUsername.Text = "Username";
             // 
             // labelPass
             // 
             labelPass.AutoSize = true;
-            labelPass.Font = new Font("Century", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            labelPass.Location = new Point(465, 202);
+            labelPass.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            labelPass.Location = new Point(472, 171);
             labelPass.Name = "labelPass";
-            labelPass.Size = new Size(78, 20);
+            labelPass.Size = new Size(66, 17);
             labelPass.TabIndex = 3;
             labelPass.Text = "Password";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(502, 167);
+            textBox1.BackColor = Color.FromArgb(230, 231, 233);
+            textBox1.Location = new Point(509, 136);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(227, 23);
             textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(502, 225);
+            textBox2.BackColor = Color.FromArgb(230, 231, 233);
+            textBox2.Location = new Point(509, 194);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(227, 23);
             textBox2.TabIndex = 5;
@@ -101,7 +104,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Century", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(628, 262);
+            label1.Location = new Point(635, 231);
             label1.Name = "label1";
             label1.Size = new Size(146, 20);
             label1.TabIndex = 6;
@@ -113,7 +116,7 @@
             btnSignIn.FlatAppearance.BorderSize = 0;
             btnSignIn.Font = new Font("Adobe Fan Heiti Std B", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnSignIn.ForeColor = SystemColors.HighlightText;
-            btnSignIn.Location = new Point(502, 299);
+            btnSignIn.Location = new Point(509, 260);
             btnSignIn.Margin = new Padding(0);
             btnSignIn.Name = "btnSignIn";
             btnSignIn.Size = new Size(227, 35);
@@ -122,26 +125,36 @@
             btnSignIn.UseVisualStyleBackColor = false;
             btnSignIn.Click += btnSignIn_Click;
             // 
-            // button2
+            // label2
             // 
-            button2.BackColor = SystemColors.ActiveCaptionText;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.Font = new Font("Adobe Fan Heiti Std B", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = SystemColors.HighlightText;
-            button2.Location = new Point(718, 9);
-            button2.Margin = new Padding(0);
-            button2.Name = "button2";
-            button2.Size = new Size(86, 35);
-            button2.TabIndex = 8;
-            button2.Text = "Sign Up";
-            button2.UseVisualStyleBackColor = false;
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(512, 319);
+            label2.Name = "label2";
+            label2.Size = new Size(125, 17);
+            label2.TabIndex = 8;
+            label2.Text = "Don't have account?";
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            linkLabel1.LinkColor = Color.CornflowerBlue;
+            linkLabel1.Location = new Point(633, 319);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(133, 17);
+            linkLabel1.TabIndex = 9;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Create a new account";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // LoginMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(813, 392);
-            Controls.Add(button2);
+            Controls.Add(linkLabel1);
+            Controls.Add(label2);
             Controls.Add(btnSignIn);
             Controls.Add(label1);
             Controls.Add(textBox2);
@@ -150,9 +163,12 @@
             Controls.Add(labelUsername);
             Controls.Add(labelLogin);
             Controls.Add(pictureBox1);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "LoginMenu";
-            Text = "LoginMenu";
+            ShowIcon = false;
+            ShowInTaskbar = false;
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Login";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -169,6 +185,7 @@
         private Label label1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Button btnSignIn;
-        private Button button2;
+        private Label label2;
+        private LinkLabel linkLabel1;
     }
 }
