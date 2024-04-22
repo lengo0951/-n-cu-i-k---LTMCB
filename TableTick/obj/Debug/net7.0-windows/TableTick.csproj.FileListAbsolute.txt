@@ -50,3 +50,30 @@ D:\Course\Lập trình mạng\LTMCB-DoAnCuoiKy\LTMCB-DoAnCuoiKy\TableTick\obj\De
 D:\Course\Lập trình mạng\LTMCB-DoAnCuoiKy\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\ref\TableTick.dll
 D:\Course\Lập trình mạng\LTMCB-DoAnCuoiKy\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Child.AJob.resources
 D:\Course\Lập trình mạng\LTMCB-DoAnCuoiKy\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.SignupMenu.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\TableTick.exe
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\TableTick.deps.json
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\TableTick.runtimeconfig.json
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\TableTick.dll
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\TableTick.pdb
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.FormMenu.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Calendar.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Child.AJob.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Home.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Note.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Plan.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Setting.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Tasks.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.LoginMenu.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Properties.Resources.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.SignupMenu.resources
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.csproj.GenerateResource.cache
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.GeneratedMSBuildEditorConfig.editorconfig
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.AssemblyInfoInputs.cache
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.AssemblyInfo.cs
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.csproj.CoreCompileInputs.cache
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.sourcelink.json
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.dll
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\refint\TableTick.dll
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.pdb
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.genruntimeconfig.cache
+F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\ref\TableTick.dll

@@ -67,16 +67,18 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(817, 396);
+            panel1.Size = new Size(934, 528);
             panel1.TabIndex = 0;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.arrow;
-            pictureBox2.Location = new Point(775, 12);
+            pictureBox2.Location = new Point(886, 16);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(30, 27);
+            pictureBox2.Size = new Size(34, 36);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 23;
             pictureBox2.TabStop = false;
@@ -85,27 +87,29 @@
             // textBoxConfirmPass
             // 
             textBoxConfirmPass.BackColor = Color.FromArgb(230, 231, 233);
-            textBoxConfirmPass.Location = new Point(516, 253);
+            textBoxConfirmPass.Location = new Point(590, 337);
+            textBoxConfirmPass.Margin = new Padding(3, 4, 3, 4);
             textBoxConfirmPass.Name = "textBoxConfirmPass";
-            textBoxConfirmPass.Size = new Size(227, 25);
+            textBoxConfirmPass.Size = new Size(259, 29);
             textBoxConfirmPass.TabIndex = 22;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(470, 230);
+            label1.Location = new Point(537, 307);
             label1.Name = "label1";
-            label1.Size = new Size(120, 17);
+            label1.Size = new Size(157, 23);
             label1.TabIndex = 21;
             label1.Text = "Confirm password";
             // 
             // textBoxUsername
             // 
             textBoxUsername.BackColor = Color.FromArgb(230, 231, 233);
-            textBoxUsername.Location = new Point(516, 147);
+            textBoxUsername.Location = new Point(590, 196);
+            textBoxUsername.Margin = new Padding(3, 4, 3, 4);
             textBoxUsername.Name = "textBoxUsername";
-            textBoxUsername.Size = new Size(227, 25);
+            textBoxUsername.Size = new Size(259, 29);
             textBoxUsername.TabIndex = 20;
             textBoxUsername.TextChanged += textBox3_TextChanged;
             // 
@@ -113,9 +117,9 @@
             // 
             labelUsername.AutoSize = true;
             labelUsername.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            labelUsername.Location = new Point(470, 124);
+            labelUsername.Location = new Point(537, 165);
             labelUsername.Name = "labelUsername";
-            labelUsername.Size = new Size(69, 17);
+            labelUsername.Size = new Size(89, 23);
             labelUsername.TabIndex = 19;
             labelUsername.Text = "Username";
             labelUsername.Click += label3_Click;
@@ -125,9 +129,9 @@
             linkLabel1.AutoSize = true;
             linkLabel1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             linkLabel1.LinkColor = Color.CornflowerBlue;
-            linkLabel1.Location = new Point(685, 348);
+            linkLabel1.Location = new Point(797, 464);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(40, 17);
+            linkLabel1.Size = new Size(52, 23);
             linkLabel1.TabIndex = 18;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Login";
@@ -137,22 +141,23 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(530, 348);
+            label2.Location = new Point(606, 464);
             label2.Name = "label2";
-            label2.Size = new Size(149, 17);
+            label2.Size = new Size(196, 23);
             label2.TabIndex = 17;
             label2.Text = "Already have a account?";
+            label2.Click += label2_Click;
             // 
             // btnSignUp
             // 
             btnSignUp.BackColor = SystemColors.ActiveCaptionText;
             btnSignUp.FlatAppearance.BorderSize = 0;
-            btnSignUp.Font = new Font("Adobe Fan Heiti Std B", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSignUp.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnSignUp.ForeColor = SystemColors.HighlightText;
-            btnSignUp.Location = new Point(516, 299);
+            btnSignUp.Location = new Point(590, 399);
             btnSignUp.Margin = new Padding(0);
             btnSignUp.Name = "btnSignUp";
-            btnSignUp.Size = new Size(227, 35);
+            btnSignUp.Size = new Size(259, 47);
             btnSignUp.TabIndex = 16;
             btnSignUp.Text = "Sign Up";
             btnSignUp.UseVisualStyleBackColor = false;
@@ -161,26 +166,28 @@
             // textBoxPass
             // 
             textBoxPass.BackColor = Color.FromArgb(230, 231, 233);
-            textBoxPass.Location = new Point(516, 197);
+            textBoxPass.Location = new Point(590, 263);
+            textBoxPass.Margin = new Padding(3, 4, 3, 4);
             textBoxPass.Name = "textBoxPass";
-            textBoxPass.Size = new Size(227, 25);
+            textBoxPass.Size = new Size(259, 29);
             textBoxPass.TabIndex = 14;
             // 
             // textBoxEmail
             // 
             textBoxEmail.BackColor = Color.FromArgb(230, 231, 233);
-            textBoxEmail.Location = new Point(516, 89);
+            textBoxEmail.Location = new Point(590, 119);
+            textBoxEmail.Margin = new Padding(3, 4, 3, 4);
             textBoxEmail.Name = "textBoxEmail";
-            textBoxEmail.Size = new Size(227, 25);
+            textBoxEmail.Size = new Size(259, 29);
             textBoxEmail.TabIndex = 13;
             // 
             // labelPass
             // 
             labelPass.AutoSize = true;
             labelPass.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            labelPass.Location = new Point(470, 174);
+            labelPass.Location = new Point(537, 232);
             labelPass.Name = "labelPass";
-            labelPass.Size = new Size(66, 17);
+            labelPass.Size = new Size(85, 23);
             labelPass.TabIndex = 12;
             labelPass.Text = "Password";
             // 
@@ -188,9 +195,9 @@
             // 
             labelEmail.AutoSize = true;
             labelEmail.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            labelEmail.Location = new Point(470, 66);
+            labelEmail.Location = new Point(537, 88);
             labelEmail.Name = "labelEmail";
-            labelEmail.Size = new Size(42, 17);
+            labelEmail.Size = new Size(54, 23);
             labelEmail.TabIndex = 11;
             labelEmail.Text = "Email";
             // 
@@ -199,9 +206,9 @@
             labelLogin.AutoSize = true;
             labelLogin.Font = new Font("Century", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             labelLogin.ForeColor = Color.DarkOrchid;
-            labelLogin.Location = new Point(550, 34);
+            labelLogin.Location = new Point(629, 45);
             labelLogin.Name = "labelLogin";
-            labelLogin.Size = new Size(176, 25);
+            labelLogin.Size = new Size(226, 33);
             labelLogin.TabIndex = 10;
             labelLogin.Text = "Create Account";
             // 
@@ -209,19 +216,21 @@
             // 
             pictureBox1.Image = Properties.Resources.admin_login;
             pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(417, 392);
+            pictureBox1.Size = new Size(477, 523);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // SignupMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(817, 396);
+            ClientSize = new Size(934, 528);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "SignupMenu";
             ShowIcon = false;
             ShowInTaskbar = false;
