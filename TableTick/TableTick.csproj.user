@@ -25,6 +25,12 @@
     <Compile Update="Forms\Tasks.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\UserControlBlank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\UserControlDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="LoginMenu.cs">
       <SubType>Form</SubType>
     </Compile>
