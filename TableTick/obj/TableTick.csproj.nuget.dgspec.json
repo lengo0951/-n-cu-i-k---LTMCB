@@ -43,6 +43,18 @@
             "FireSharp": {
               "target": "Package",
               "version": "[2.0.4, )"
+            },
+            "MaterialSkin.2": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "MetroFramework.RunTime": {
+              "target": "Package",
+              "version": "[1.2.0.3, )"
+            },
+            "MetroModernUI": {
+              "target": "Package",
+              "version": "[1.4.0, )"
             }
           },
           "imports": [
