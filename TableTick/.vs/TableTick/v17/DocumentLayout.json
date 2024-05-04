@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\calendar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\calendar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,8 +46,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calendar.cs",
+              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
+              "RelativeDocumentMoniker": "Forms\\Calendar.cs",
+              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
+              "RelativeToolTip": "Forms\\Calendar.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T17:00:33.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calendar.Designer.cs",
+              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\Calendar.Designer.cs",
+              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.Designer.cs",
+              "RelativeToolTip": "Forms\\Calendar.Designer.cs",
+              "ViewState": "AQIAACQCAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T16:53:01.529Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -54,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Calendar.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
               "RelativeDocumentMoniker": "Forms\\Calendar.cs",
@@ -66,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SignupMenu.cs",
               "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\SignupMenu.cs",
               "RelativeDocumentMoniker": "SignupMenu.cs",
@@ -78,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SignupMenu.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\SignupMenu.cs",
               "RelativeDocumentMoniker": "SignupMenu.cs",
@@ -88,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Plan.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Plan.cs",
               "RelativeDocumentMoniker": "Forms\\Plan.cs",
@@ -98,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FormMenu.cs",
               "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\FormMenu.cs",
               "RelativeDocumentMoniker": "FormMenu.cs",
@@ -106,24 +140,22 @@
               "RelativeToolTip": "FormMenu.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAYwD4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T16:09:09.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T16:09:09.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FormMenu.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\FormMenu.cs",
               "RelativeDocumentMoniker": "FormMenu.cs",
               "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\FormMenu.cs [Design]",
               "RelativeToolTip": "FormMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T16:09:09.993Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-21T16:09:09.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LoginMenu.cs [Design]",
               "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\LoginMenu.cs",
               "RelativeDocumentMoniker": "LoginMenu.cs",
