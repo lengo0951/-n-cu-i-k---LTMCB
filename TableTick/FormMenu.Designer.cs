@@ -79,7 +79,7 @@
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(200, 480);
+            panelMenu.Size = new Size(200, 487);
             panelMenu.TabIndex = 0;
             // 
             // btnSetting
@@ -237,7 +237,7 @@
             panelDesktopPane.Dock = DockStyle.Fill;
             panelDesktopPane.Location = new Point(200, 80);
             panelDesktopPane.Name = "panelDesktopPane";
-            panelDesktopPane.Size = new Size(827, 400);
+            panelDesktopPane.Size = new Size(827, 407);
             panelDesktopPane.TabIndex = 2;
             panelDesktopPane.Paint += panelDesktopPane_Paint;
             // 
@@ -392,7 +392,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(1027, 480);
+            ClientSize = new Size(1027, 487);
             Controls.Add(panelDesktopPane);
             Controls.Add(panelTitleBar);
             Controls.Add(panelMenu);
