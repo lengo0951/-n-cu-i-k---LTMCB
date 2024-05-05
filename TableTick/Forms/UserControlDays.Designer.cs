@@ -37,19 +37,21 @@
             lbdays.Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point);
             lbdays.Location = new Point(3, 0);
             lbdays.Name = "lbdays";
-            lbdays.Size = new Size(43, 37);
+            lbdays.Size = new Size(33, 29);
             lbdays.TabIndex = 0;
             lbdays.Text = "00";
             // 
             // UserControlDays
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(lbdays);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "UserControlDays";
-            Size = new Size(125, 65);
+            Size = new Size(109, 49);
             Load += UserControlDays_Load;
+            Click += UserControlDays_Click;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -14,6 +14,8 @@ namespace TableTick.Forms
     public partial class Calendar : Form
     {
         int month, year;
+        //lets create a static variable that we can pass to another form for mon and year
+        public static int static_month, static_year;
         public Calendar()
         {
             InitializeComponent();
@@ -31,6 +33,9 @@ namespace TableTick.Forms
 
             string monthname = DateTimeFormatInfo.CurrentInfo.MonthNames[month];
             LBDATE.Text = monthname + " " + year;
+            
+            static_month = month;
+            static_year = year;
 
             //lets get the fisrt day of the month
             DateTime startofthemonth = new DateTime(year, month, 1);
@@ -63,6 +68,9 @@ namespace TableTick.Forms
             string monthname = DateTimeFormatInfo.CurrentInfo.MonthNames[month];
             LBDATE.Text = monthname + " " + year;
 
+            static_month = month;
+            static_year = year;
+
             DateTime startofthemonth = new DateTime(year, month, 1);
             //get the count of day of the month 
             int days = DateTime.DaysInMonth(year, month);
@@ -92,6 +100,9 @@ namespace TableTick.Forms
 
             string monthname = DateTimeFormatInfo.CurrentInfo.MonthNames[month];
             LBDATE.Text = monthname + " " + year;
+
+            static_month = month;
+            static_year = year;
 
             DateTime startofthemonth = new DateTime(year, month, 1);
             //get the count of day of the month 

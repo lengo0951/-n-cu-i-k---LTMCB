@@ -1,4 +1,5 @@
-﻿namespace TableTick.Forms
+﻿
+namespace TableTick.Forms
 {
     partial class EventForm
     {
@@ -40,26 +41,28 @@
             txdate.BorderStyle = BorderStyle.FixedSingle;
             txdate.Enabled = false;
             txdate.Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txdate.Location = new Point(48, 82);
+            txdate.Location = new Point(42, 62);
+            txdate.Margin = new Padding(3, 2, 3, 2);
             txdate.Name = "txdate";
-            txdate.Size = new Size(459, 25);
+            txdate.Size = new Size(402, 21);
             txdate.TabIndex = 0;
             // 
             // txevent
             // 
             txevent.BorderStyle = BorderStyle.FixedSingle;
-            txevent.Location = new Point(48, 166);
+            txevent.Location = new Point(42, 124);
+            txevent.Margin = new Padding(3, 2, 3, 2);
             txevent.Name = "txevent";
-            txevent.Size = new Size(459, 27);
+            txevent.Size = new Size(402, 23);
             txevent.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(48, 50);
+            label1.Location = new Point(42, 38);
             label1.Name = "label1";
-            label1.Size = new Size(43, 19);
+            label1.Size = new Size(37, 16);
             label1.TabIndex = 1;
             label1.Text = "Date";
             // 
@@ -67,31 +70,34 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(48, 129);
+            label2.Location = new Point(42, 97);
             label2.Name = "label2";
-            label2.Size = new Size(49, 19);
+            label2.Size = new Size(43, 16);
             label2.TabIndex = 1;
             label2.Text = "Event";
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(462, 207);
+            btnSave.Location = new Point(404, 155);
+            btnSave.Margin = new Padding(3, 2, 3, 2);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(94, 29);
+            btnSave.Size = new Size(82, 22);
             btnSave.TabIndex = 2;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // EventForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(568, 248);
+            ClientSize = new Size(497, 186);
             Controls.Add(btnSave);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(txevent);
             Controls.Add(txdate);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "EventForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "EventForm";
