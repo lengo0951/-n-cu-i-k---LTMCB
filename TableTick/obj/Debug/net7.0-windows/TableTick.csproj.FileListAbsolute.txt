@@ -158,3 +158,4 @@ D:\UIT\NamHaiHK2\LTMCB\Project\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windo
 D:\UIT\NamHaiHK2\LTMCB\Project\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.genruntimeconfig.cache
 D:\UIT\NamHaiHK2\LTMCB\Project\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\ref\TableTick.dll
 D:\UIT\NamHaiHK2\LTMCB\Project\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.UserControlDays.resources
+D:\UIT\NamHaiHK2\LTMCB\Project\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.EventForm.resources
