@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "fxjPesPenEtuUq0p1lmjLhifhZof7IiaiKBw7BUhNCtjE2jQbFYMRdo2zrji9ttfFRCIrU0B7IOibHzhIZHpcw==",
+  "dgSpecHash": "X6Y6tgKg/+2Wh2ZrwjeeFOxAR+RMuv4VNWx4IxXFuitfjX1N0mEl4KScIYwXRkhCdI7CntCKmdJ32gjlct8eRg==",
   "success": true,
-  "projectFilePath": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+  "projectFilePath": "D:\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\MSI\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\metroframework.runtime\\1.2.0.3\\metroframework.runtime.1.2.0.3.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.bcl\\1.1.9\\microsoft.bcl.1.1.9.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.bcl.async\\1.0.168\\microsoft.bcl.async.1.0.168.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.net.http\\2.2.28\\microsoft.net.http.2.2.28.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\newtonsoft.json\\6.0.4\\newtonsoft.json.6.0.4.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+    "C:\\Users\\CoolStar\\.nuget\\packages\\firesharp\\2.0.4\\firesharp.2.0.4.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\metroframework.runtime\\1.2.0.3\\metroframework.runtime.1.2.0.3.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\microsoft.bcl\\1.1.9\\microsoft.bcl.1.1.9.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\microsoft.bcl.async\\1.0.168\\microsoft.bcl.async.1.0.168.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\microsoft.net.http\\2.2.28\\microsoft.net.http.2.2.28.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\newtonsoft.json\\6.0.4\\newtonsoft.json.6.0.4.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\CoolStar\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
   ],
   "logs": [
     {
