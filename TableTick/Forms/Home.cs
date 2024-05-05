@@ -16,6 +16,6 @@ namespace TableTick.Forms
         {
             InitializeComponent();
         }
-  
+
     }
 }

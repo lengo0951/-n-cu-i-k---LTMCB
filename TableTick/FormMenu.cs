@@ -33,7 +33,7 @@ namespace TableTick
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         //Methods
-       
+
         private void DisableButton()
         {
             foreach (Control previousBtn in panelMenu.Controls)
