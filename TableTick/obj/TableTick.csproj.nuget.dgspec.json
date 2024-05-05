@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Course\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {}
+    "D:\\Code\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {}
   },
   "projects": {
-    "D:\\Course\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {
+    "D:\\Code\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Course\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+        "projectUniqueName": "D:\\Code\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
         "projectName": "TableTick",
-        "projectPath": "D:\\Course\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+        "projectPath": "D:\\Code\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
         "packagesPath": "C:\\Users\\CoolStar\\.nuget\\packages\\",
-        "outputPath": "D:\\Course\\LTMCB-DoAnCuoiKy\\TableTick\\obj\\",
+        "outputPath": "D:\\Code\\LTMCB-DoAnCuoiKy\\TableTick\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CoolStar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "FireSharp": {
               "target": "Package",
               "version": "[2.0.4, )"
+            },
+            "Guna.UI2.WinForms": {
+              "target": "Package",
+              "version": "[2.0.4.6, )"
             },
             "MaterialSkin.2": {
               "target": "Package",

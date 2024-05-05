@@ -28,85 +28,145 @@
         /// </summary>
         private void InitializeComponent()
         {
-            metroPanel1 = new MetroFramework.Controls.MetroPanel();
             panel1 = new Panel();
-            pictureBox1 = new PictureBox();
-            materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            metroPanel1.SuspendLayout();
+            btnHelp = new Button();
+            btnAppearance = new Button();
+            btnSecurity = new Button();
+            btnNotification = new Button();
+            btnEditProfile = new Button();
+            panelSettingPane = new Panel();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // metroPanel1
-            // 
-            metroPanel1.AutoScroll = true;
-            metroPanel1.Controls.Add(panel1);
-            metroPanel1.Dock = DockStyle.Left;
-            metroPanel1.HorizontalScrollbar = true;
-            metroPanel1.HorizontalScrollbarBarColor = false;
-            metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            metroPanel1.HorizontalScrollbarSize = 10;
-            metroPanel1.Location = new Point(0, 0);
-            metroPanel1.Name = "metroPanel1";
-            metroPanel1.Size = new Size(265, 368);
-            metroPanel1.TabIndex = 0;
-            metroPanel1.VerticalScrollbar = true;
-            metroPanel1.VerticalScrollbarBarColor = true;
-            metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            metroPanel1.VerticalScrollbarSize = 10;
             // 
             // panel1
             // 
-            panel1.Controls.Add(materialLabel1);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Dock = DockStyle.Top;
+            panel1.Controls.Add(btnHelp);
+            panel1.Controls.Add(btnAppearance);
+            panel1.Controls.Add(btnSecurity);
+            panel1.Controls.Add(btnNotification);
+            panel1.Controls.Add(btnEditProfile);
+            panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(265, 158);
-            panel1.TabIndex = 2;
+            panel1.Size = new Size(140, 407);
+            panel1.TabIndex = 0;
             // 
-            // pictureBox1
+            // btnHelp
             // 
-            pictureBox1.Image = Properties.Resources.profile;
-            pictureBox1.Location = new Point(78, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 93);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            btnHelp.Dock = DockStyle.Top;
+            btnHelp.FlatAppearance.BorderSize = 0;
+            btnHelp.FlatStyle = FlatStyle.Flat;
+            btnHelp.Image = Properties.Resources.question;
+            btnHelp.ImageAlign = ContentAlignment.MiddleLeft;
+            btnHelp.Location = new Point(0, 324);
+            btnHelp.Name = "btnHelp";
+            btnHelp.Size = new Size(140, 81);
+            btnHelp.TabIndex = 6;
+            btnHelp.Text = "     Help";
+            btnHelp.TextAlign = ContentAlignment.MiddleLeft;
+            btnHelp.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnHelp.UseVisualStyleBackColor = true;
+            btnHelp.Click += btnHelp_Click;
             // 
-            // materialLabel1
+            // btnAppearance
             // 
-            materialLabel1.AutoSize = true;
-            materialLabel1.Depth = 0;
-            materialLabel1.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialLabel1.Location = new Point(93, 118);
-            materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
-            materialLabel1.Name = "materialLabel1";
-            materialLabel1.Size = new Size(72, 19);
-            materialLabel1.TabIndex = 1;
-            materialLabel1.Text = "Username";
+            btnAppearance.Dock = DockStyle.Top;
+            btnAppearance.FlatAppearance.BorderSize = 0;
+            btnAppearance.FlatStyle = FlatStyle.Flat;
+            btnAppearance.Image = Properties.Resources.settings;
+            btnAppearance.ImageAlign = ContentAlignment.MiddleLeft;
+            btnAppearance.Location = new Point(0, 243);
+            btnAppearance.Name = "btnAppearance";
+            btnAppearance.Size = new Size(140, 81);
+            btnAppearance.TabIndex = 5;
+            btnAppearance.Text = "     Appearance";
+            btnAppearance.TextAlign = ContentAlignment.MiddleLeft;
+            btnAppearance.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnAppearance.UseVisualStyleBackColor = true;
+            btnAppearance.Click += btnAppearance_Click;
+            // 
+            // btnSecurity
+            // 
+            btnSecurity.Dock = DockStyle.Top;
+            btnSecurity.FlatAppearance.BorderSize = 0;
+            btnSecurity.FlatStyle = FlatStyle.Flat;
+            btnSecurity.Image = Properties.Resources.verified;
+            btnSecurity.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSecurity.Location = new Point(0, 162);
+            btnSecurity.Name = "btnSecurity";
+            btnSecurity.Size = new Size(140, 81);
+            btnSecurity.TabIndex = 4;
+            btnSecurity.Text = "     Security";
+            btnSecurity.TextAlign = ContentAlignment.MiddleLeft;
+            btnSecurity.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnSecurity.UseVisualStyleBackColor = true;
+            btnSecurity.Click += btnSecurity_Click;
+            // 
+            // btnNotification
+            // 
+            btnNotification.Dock = DockStyle.Top;
+            btnNotification.FlatAppearance.BorderSize = 0;
+            btnNotification.FlatStyle = FlatStyle.Flat;
+            btnNotification.Image = Properties.Resources.notification;
+            btnNotification.ImageAlign = ContentAlignment.MiddleLeft;
+            btnNotification.Location = new Point(0, 81);
+            btnNotification.Name = "btnNotification";
+            btnNotification.Size = new Size(140, 81);
+            btnNotification.TabIndex = 3;
+            btnNotification.Text = "     Notification";
+            btnNotification.TextAlign = ContentAlignment.MiddleLeft;
+            btnNotification.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnNotification.UseVisualStyleBackColor = true;
+            btnNotification.Click += btnNotification_Click;
+            // 
+            // btnEditProfile
+            // 
+            btnEditProfile.Dock = DockStyle.Top;
+            btnEditProfile.FlatAppearance.BorderSize = 0;
+            btnEditProfile.FlatStyle = FlatStyle.Flat;
+            btnEditProfile.Image = Properties.Resources.user;
+            btnEditProfile.ImageAlign = ContentAlignment.MiddleLeft;
+            btnEditProfile.Location = new Point(0, 0);
+            btnEditProfile.Name = "btnEditProfile";
+            btnEditProfile.Size = new Size(140, 81);
+            btnEditProfile.TabIndex = 2;
+            btnEditProfile.Text = "     Edit Profile";
+            btnEditProfile.TextAlign = ContentAlignment.MiddleLeft;
+            btnEditProfile.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnEditProfile.UseVisualStyleBackColor = true;
+            btnEditProfile.Click += btnEditProfile_Click;
+            // 
+            // panelSettingPane
+            // 
+            panelSettingPane.Dock = DockStyle.Fill;
+            panelSettingPane.Location = new Point(140, 0);
+            panelSettingPane.Margin = new Padding(5);
+            panelSettingPane.Name = "panelSettingPane";
+            panelSettingPane.Size = new Size(687, 407);
+            panelSettingPane.TabIndex = 1;
             // 
             // Setting
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(811, 368);
-            Controls.Add(metroPanel1);
+            ClientSize = new Size(827, 407);
+            Controls.Add(panelSettingPane);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Setting";
             Text = "Setting";
-            metroPanel1.ResumeLayout(false);
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private MetroFramework.Controls.MetroPanel metroPanel1;
         private Panel panel1;
-        private PictureBox pictureBox1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel1;
+        private Button btnHelp;
+        private Button btnAppearance;
+        private Button btnSecurity;
+        private Button btnNotification;
+        private Button btnEditProfile;
+        private Panel panelSettingPane;
     }
 }
