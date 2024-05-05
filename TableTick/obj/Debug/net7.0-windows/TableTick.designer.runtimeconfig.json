@@ -12,10 +12,11 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\CoolStar\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\MSI\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\CoolStar\\.nuget\\packages"
     ],
     "configProperties": {
+      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }
