@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TableTick")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e340f5d82aa28c5082e9ac4350f4969dbebccfdc")]
 [assembly: System.Reflection.AssemblyProductAttribute("TableTick")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TableTick")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

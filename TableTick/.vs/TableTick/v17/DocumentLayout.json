@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\",
+  "WorkspaceRootPath": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|f:\\uit\\hoc_ki_4\\laptrinhmangcanban\\doancuoiky\\ltmcb-doancuoiky\\tabletick\\forms\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|f:\\uit\\hoc_ki_4\\laptrinhmangcanban\\doancuoiky\\ltmcb-doancuoiky\\tabletick\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|d:\\uit\\namhaihk2\\ltmcb\\project\\ltmcb-doancuoiky\\tabletick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,107 +42,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventForm.Designer.cs",
-              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\EventForm.Designer.cs",
-              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.Designer.cs",
-              "RelativeToolTip": "Forms\\EventForm.Designer.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGoAAAAJAAAA",
+              "DocumentIndex": 0,
+              "Title": "Plan.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Plan.cs",
+              "RelativeDocumentMoniker": "Forms\\Plan.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Plan.cs [Design]",
+              "RelativeToolTip": "Forms\\Plan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:45:16.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserControlDays.cs",
-              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
-              "RelativeDocumentMoniker": "Forms\\UserControlDays.cs",
-              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
-              "RelativeToolTip": "Forms\\UserControlDays.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAACIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:33:52.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserControlDays.cs [Design]",
-              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
-              "RelativeDocumentMoniker": "Forms\\UserControlDays.cs",
-              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs [Design]",
-              "RelativeToolTip": "Forms\\UserControlDays.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:33:27.398Z",
+              "WhenOpened": "2024-05-06T02:02:28.102Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Calendar.cs",
-              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
-              "RelativeDocumentMoniker": "Forms\\Calendar.cs",
-              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
-              "RelativeToolTip": "Forms\\Calendar.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwGYAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "EventForm.Designer.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\EventForm.Designer.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.Designer.cs",
+              "RelativeToolTip": "Forms\\EventForm.Designer.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:27:59.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-05T14:45:16.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "UserControlDays.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
+              "RelativeDocumentMoniker": "Forms\\UserControlDays.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
+              "RelativeToolTip": "Forms\\UserControlDays.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:33:52.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserControlDays.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
+              "RelativeDocumentMoniker": "Forms\\UserControlDays.cs",
+              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:33:27.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calendar.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
+              "RelativeDocumentMoniker": "Forms\\Calendar.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
+              "RelativeToolTip": "Forms\\Calendar.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwGYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:27:59.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EventForm.cs",
-              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
               "RelativeDocumentMoniker": "Forms\\EventForm.cs",
-              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
               "RelativeToolTip": "Forms\\EventForm.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwA0AAACRAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAkwA0AAACRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T14:14:25.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EventForm.cs [Design]",
-              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
               "RelativeDocumentMoniker": "Forms\\EventForm.cs",
               "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs [Design]",
-              "RelativeToolTip": "Forms\\EventForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:14:23.281Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-05T14:14:23.281Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Calendar.cs [Design]",
-              "DocumentMoniker": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAnCuoiKy\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
               "RelativeDocumentMoniker": "Forms\\Calendar.cs",
               "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs [Design]",
-              "RelativeToolTip": "Forms\\Calendar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T13:59:51.476Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-05T13:59:51.476Z"
             }
           ]
         }
