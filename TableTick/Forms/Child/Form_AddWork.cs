@@ -42,7 +42,7 @@ namespace TableTick.Forms.Child
             var worklist = new Worklist
             {
                 Content = textBoxContent.Text,
-                Category = comboBoxCategory.ValueMember,
+                Category = comboBoxCategory.SelectedItem.ToJson(),
                 Start = dtpStart.Value,
                 End = dtpEnd.Value
             };
@@ -57,6 +57,6 @@ namespace TableTick.Forms.Child
             }
         }
 
-     
+
     }
 }

@@ -80,41 +80,44 @@
             panel1.Margin = new Padding(8);
             panel1.Name = "panel1";
             panel1.Padding = new Padding(8);
-            panel1.Size = new Size(800, 450);
+            panel1.Size = new Size(600, 366);
             panel1.TabIndex = 0;
             // 
             // dtpEnd
             // 
             dtpEnd.Checked = true;
+            dtpEnd.CustomFormat = "dd MM yyyy";
             dtpEnd.CustomizableEdges = customizableEdges1;
             dtpEnd.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dtpEnd.Format = DateTimePickerFormat.Long;
-            dtpEnd.Location = new Point(528, 246);
+            dtpEnd.Format = DateTimePickerFormat.Custom;
+            dtpEnd.Location = new Point(384, 189);
             dtpEnd.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpEnd.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpEnd.Name = "dtpEnd";
             dtpEnd.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            dtpEnd.Size = new Size(200, 36);
+            dtpEnd.Size = new Size(134, 36);
             dtpEnd.TabIndex = 17;
             dtpEnd.Value = new DateTime(2024, 5, 12, 15, 52, 24, 667);
             // 
             // dtpStart
             // 
             dtpStart.Checked = true;
+            dtpStart.CustomFormat = "dd MM yyyy";
             dtpStart.CustomizableEdges = customizableEdges3;
             dtpStart.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dtpStart.Format = DateTimePickerFormat.Long;
-            dtpStart.Location = new Point(147, 246);
+            dtpStart.Format = DateTimePickerFormat.Custom;
+            dtpStart.Location = new Point(148, 189);
             dtpStart.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpStart.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpStart.Name = "dtpStart";
             dtpStart.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            dtpStart.Size = new Size(200, 36);
+            dtpStart.Size = new Size(122, 36);
             dtpStart.TabIndex = 16;
             dtpStart.Value = new DateTime(2024, 5, 12, 15, 52, 24, 667);
             // 
             // guna2Button2
             // 
+            guna2Button2.BorderRadius = 5;
             guna2Button2.CustomizableEdges = customizableEdges5;
             guna2Button2.DisabledState.BorderColor = Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -123,15 +126,16 @@
             guna2Button2.FillColor = Color.Brown;
             guna2Button2.Font = new Font("Century", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(468, 316);
+            guna2Button2.Location = new Point(274, 250);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2Button2.Size = new Size(117, 45);
+            guna2Button2.Size = new Size(98, 35);
             guna2Button2.TabIndex = 14;
             guna2Button2.Text = "Close";
             // 
             // guna2Button1
             // 
+            guna2Button1.BorderRadius = 5;
             guna2Button1.CustomizableEdges = customizableEdges7;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -140,10 +144,10 @@
             guna2Button1.FillColor = Color.FromArgb(0, 150, 136);
             guna2Button1.Font = new Font("Century", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Location = new Point(611, 316);
+            guna2Button1.Location = new Point(420, 250);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2Button1.Size = new Size(117, 45);
+            guna2Button1.Size = new Size(98, 35);
             guna2Button1.TabIndex = 13;
             guna2Button1.Text = "Save";
             guna2Button1.Click += guna2Button1_Click;
@@ -156,7 +160,7 @@
             materialLabel6.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             materialLabel6.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
             materialLabel6.ForeColor = Color.FromArgb(0, 150, 136);
-            materialLabel6.Location = new Point(419, 263);
+            materialLabel6.Location = new Point(305, 206);
             materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel6.Name = "materialLabel6";
             materialLabel6.Size = new Size(32, 19);
@@ -175,10 +179,10 @@
             comboBoxCategory.ForeColor = Color.FromArgb(68, 88, 112);
             comboBoxCategory.ItemHeight = 30;
             comboBoxCategory.Items.AddRange(new object[] { "Lập Trình Mạng", "Lập Trình Web", "Mật Mã Học" });
-            comboBoxCategory.Location = new Point(148, 189);
+            comboBoxCategory.Location = new Point(149, 138);
             comboBoxCategory.Name = "comboBoxCategory";
             comboBoxCategory.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            comboBoxCategory.Size = new Size(581, 36);
+            comboBoxCategory.Size = new Size(369, 36);
             comboBoxCategory.TabIndex = 9;
             // 
             // materialLabel5
@@ -189,7 +193,7 @@
             materialLabel5.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             materialLabel5.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
             materialLabel5.ForeColor = Color.FromArgb(0, 150, 136);
-            materialLabel5.Location = new Point(65, 263);
+            materialLabel5.Location = new Point(66, 206);
             materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel5.Name = "materialLabel5";
             materialLabel5.Size = new Size(39, 19);
@@ -204,7 +208,7 @@
             materialLabel4.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             materialLabel4.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
             materialLabel4.ForeColor = Color.FromArgb(0, 150, 136);
-            materialLabel4.Location = new Point(36, 206);
+            materialLabel4.Location = new Point(37, 155);
             materialLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel4.Name = "materialLabel4";
             materialLabel4.Size = new Size(108, 19);
@@ -223,13 +227,13 @@
             textBoxContent.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             textBoxContent.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             textBoxContent.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            textBoxContent.Location = new Point(147, 137);
+            textBoxContent.Location = new Point(149, 92);
             textBoxContent.Name = "textBoxContent";
             textBoxContent.PasswordChar = '\0';
             textBoxContent.PlaceholderText = "";
             textBoxContent.SelectedText = "";
             textBoxContent.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            textBoxContent.Size = new Size(581, 30);
+            textBoxContent.Size = new Size(370, 30);
             textBoxContent.TabIndex = 4;
             // 
             // materialLabel3
@@ -240,7 +244,7 @@
             materialLabel3.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
             materialLabel3.ForeColor = Color.FromArgb(0, 150, 136);
-            materialLabel3.Location = new Point(36, 148);
+            materialLabel3.Location = new Point(38, 103);
             materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel3.Name = "materialLabel3";
             materialLabel3.Size = new Size(100, 19);
@@ -259,13 +263,13 @@
             textBoxWorkTitle.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             textBoxWorkTitle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             textBoxWorkTitle.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            textBoxWorkTitle.Location = new Point(147, 80);
+            textBoxWorkTitle.Location = new Point(149, 46);
             textBoxWorkTitle.Name = "textBoxWorkTitle";
             textBoxWorkTitle.PasswordChar = '\0';
             textBoxWorkTitle.PlaceholderText = "";
             textBoxWorkTitle.SelectedText = "";
             textBoxWorkTitle.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            textBoxWorkTitle.Size = new Size(581, 30);
+            textBoxWorkTitle.Size = new Size(370, 30);
             textBoxWorkTitle.TabIndex = 2;
             // 
             // materialLabel2
@@ -276,7 +280,7 @@
             materialLabel2.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
             materialLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
             materialLabel2.ForeColor = Color.FromArgb(0, 150, 136);
-            materialLabel2.Location = new Point(36, 91);
+            materialLabel2.Location = new Point(38, 57);
             materialLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel2.Name = "materialLabel2";
             materialLabel2.Size = new Size(76, 19);
@@ -291,7 +295,7 @@
             materialLabel1.Font = new Font("Roboto Medium", 20F, FontStyle.Bold, GraphicsUnit.Pixel);
             materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
             materialLabel1.ForeColor = Color.FromArgb(0, 150, 136);
-            materialLabel1.Location = new Point(310, 30);
+            materialLabel1.Location = new Point(228, 8);
             materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             materialLabel1.Name = "materialLabel1";
             materialLabel1.Size = new Size(162, 24);
@@ -302,10 +306,10 @@
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(0, 150, 136);
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(600, 366);
             Controls.Add(panel1);
             Font = new Font("Century", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Form_AddWork";
             Text = "Form_AddWork";
             panel1.ResumeLayout(false);
