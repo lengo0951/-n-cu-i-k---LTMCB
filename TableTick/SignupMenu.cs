@@ -47,7 +47,7 @@ namespace TableTick
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message+ "Check your connection!!");
+                MessageBox.Show(ex.Message + "Check your connection!!");
             }
         }
         private void label3_Click(object sender, EventArgs e)

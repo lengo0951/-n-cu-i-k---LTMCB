@@ -377,3 +377,9 @@ F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAnCuoiKy\LTMCB-DoAnCuoiKy\TableTick\obj\Deb
 F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAnCuoiKy\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.pdb
 F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAnCuoiKy\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.genruntimeconfig.cache
 F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAnCuoiKy\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\ref\TableTick.dll
+D:\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\Firebase.dll
+D:\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\LiteDB.dll
+D:\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\System.Reactive.dll
+D:\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Child.Form_AddWork.resources
+D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Child.UC_Works.resources

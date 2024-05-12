@@ -10,15 +10,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
+using TableTick.Forms.Child;
+
 namespace TableTick
 {
 
     public partial class FormMenu : Form
     {
         //Fields
-        private Button currentButton;
         private Random random;
-        private int tempIndex;
         //Constructor
         public FormMenu()
         {
@@ -57,7 +57,15 @@ namespace TableTick
             childForm.Show();
             lblTitle.Text = childForm.Text;
         }
-
+        private void OpenUserControl(UserControl childForm, object btnSender)
+        {
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktopPane.Controls.Add(childForm);
+            this.panelDesktopPane.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            lblTitle.Text = childForm.Text;
+        }
 
         private void Reset()
         {
@@ -89,7 +97,7 @@ namespace TableTick
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Home(), sender);
+            OpenUserControl(new Forms.Child.UC_Works(), sender);
         }
 
         private void btnNote_Click(object sender, EventArgs e)
