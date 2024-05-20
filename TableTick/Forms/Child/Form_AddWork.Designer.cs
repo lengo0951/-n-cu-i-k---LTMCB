@@ -126,12 +126,13 @@
             guna2Button2.FillColor = Color.Brown;
             guna2Button2.Font = new Font("Century", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
             guna2Button2.ForeColor = Color.White;
-            guna2Button2.Location = new Point(274, 250);
+            guna2Button2.Location = new Point(272, 250);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2Button2.Size = new Size(98, 35);
             guna2Button2.TabIndex = 14;
             guna2Button2.Text = "Close";
+            guna2Button2.Click += guna2Button2_Click;
             // 
             // guna2Button1
             // 
@@ -179,7 +180,7 @@
             comboBoxCategory.ForeColor = Color.FromArgb(68, 88, 112);
             comboBoxCategory.ItemHeight = 30;
             comboBoxCategory.Items.AddRange(new object[] { "Lập Trình Mạng", "Lập Trình Web", "Mật Mã Học" });
-            comboBoxCategory.Location = new Point(149, 138);
+            comboBoxCategory.Location = new Point(150, 138);
             comboBoxCategory.Name = "comboBoxCategory";
             comboBoxCategory.ShadowDecoration.CustomizableEdges = customizableEdges10;
             comboBoxCategory.Size = new Size(369, 36);

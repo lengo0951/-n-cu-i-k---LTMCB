@@ -28,17 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pictureBox1 = new PictureBox();
             labelLogin = new Label();
             labelUsername = new Label();
             labelPass = new Label();
-            textBoxUsername = new TextBox();
-            textBoxPass = new TextBox();
             label1 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             btnSignIn = new Button();
             label2 = new Label();
             linkLabel1 = new LinkLabel();
+            textBoxUsername = new Guna.UI2.WinForms.Guna2TextBox();
+            textBoxPass = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -83,22 +87,6 @@
             labelPass.Size = new Size(66, 17);
             labelPass.TabIndex = 3;
             labelPass.Text = "Password";
-            // 
-            // textBoxUsername
-            // 
-            textBoxUsername.BackColor = Color.FromArgb(230, 231, 233);
-            textBoxUsername.Location = new Point(509, 136);
-            textBoxUsername.Name = "textBoxUsername";
-            textBoxUsername.Size = new Size(227, 23);
-            textBoxUsername.TabIndex = 4;
-            // 
-            // textBoxPass
-            // 
-            textBoxPass.BackColor = Color.FromArgb(230, 231, 233);
-            textBoxPass.Location = new Point(509, 194);
-            textBoxPass.Name = "textBoxPass";
-            textBoxPass.Size = new Size(227, 23);
-            textBoxPass.TabIndex = 5;
             // 
             // label1
             // 
@@ -148,17 +136,60 @@
             linkLabel1.Text = "Create a new account";
             linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
+            // textBoxUsername
+            // 
+            textBoxUsername.BorderRadius = 10;
+            textBoxUsername.CustomizableEdges = customizableEdges1;
+            textBoxUsername.DefaultText = "";
+            textBoxUsername.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            textBoxUsername.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            textBoxUsername.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            textBoxUsername.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            textBoxUsername.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            textBoxUsername.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxUsername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            textBoxUsername.Location = new Point(509, 133);
+            textBoxUsername.Name = "textBoxUsername";
+            textBoxUsername.PasswordChar = '\0';
+            textBoxUsername.PlaceholderText = "";
+            textBoxUsername.SelectedText = "";
+            textBoxUsername.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            textBoxUsername.Size = new Size(233, 35);
+            textBoxUsername.TabIndex = 26;
+            // 
+            // textBoxPass
+            // 
+            textBoxPass.BorderRadius = 10;
+            textBoxPass.CustomizableEdges = customizableEdges3;
+            textBoxPass.DefaultText = "";
+            textBoxPass.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            textBoxPass.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            textBoxPass.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            textBoxPass.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            textBoxPass.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            textBoxPass.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxPass.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            textBoxPass.Location = new Point(509, 193);
+            textBoxPass.Name = "textBoxPass";
+            textBoxPass.PasswordChar = '\0';
+            textBoxPass.PlaceholderText = "";
+            textBoxPass.SelectedText = "";
+            textBoxPass.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            textBoxPass.Size = new Size(233, 35);
+            textBoxPass.TabIndex = 27;
+            textBoxPass.TextChanged += textBoxPass_TextChanged;
+            // 
             // LoginMenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(813, 392);
+            Controls.Add(textBoxPass);
+            Controls.Add(textBoxUsername);
             Controls.Add(linkLabel1);
             Controls.Add(label2);
             Controls.Add(btnSignIn);
             Controls.Add(label1);
-            Controls.Add(textBoxPass);
-            Controls.Add(textBoxUsername);
             Controls.Add(labelPass);
             Controls.Add(labelUsername);
             Controls.Add(labelLogin);
@@ -181,12 +212,12 @@
         private Label labelLogin;
         private Label labelUsername;
         private Label labelPass;
-        private TextBox textBoxUsername;
-        private TextBox textBoxPass;
         private Label label1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Button btnSignIn;
         private Label label2;
         private LinkLabel linkLabel1;
+        private Guna.UI2.WinForms.Guna2TextBox textBoxUsername;
+        private Guna.UI2.WinForms.Guna2TextBox textBoxPass;
     }
 }

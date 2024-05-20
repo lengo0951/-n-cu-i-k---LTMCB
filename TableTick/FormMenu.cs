@@ -27,6 +27,14 @@ namespace TableTick
             this.Text = string.Empty;
             this.ControlBox = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            // Tạo một instance của UC_Works
+            UC_Works uc = new UC_Works();
+
+            // Đặt UC_Works làm UserControl mặc định trong panelDesktopPane
+            OpenUserControl2(uc);
+
+            // Đặt text cho label lblTitle
+            lblTitle.Text = uc.Text;
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -59,6 +67,17 @@ namespace TableTick
         }
         private void OpenUserControl(UserControl childForm, object btnSender)
         {
+            childForm.BorderStyle = BorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktopPane.Controls.Add(childForm);
+            this.panelDesktopPane.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            lblTitle.Text = childForm.Text;
+        }
+        private void OpenUserControl2(UserControl childForm)
+        {
+            childForm.BorderStyle = BorderStyle.None;
             childForm.Dock = DockStyle.Fill;
             this.panelDesktopPane.Controls.Add(childForm);
             this.panelDesktopPane.Tag = childForm;

@@ -74,14 +74,19 @@ namespace TableTick
 
         private void LoginMenu_Load(object sender, EventArgs e)
         {
-             try
+            try
             {
                 client = new FireSharp.FirebaseClient(config);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message+ "Check your connection!!");
+                MessageBox.Show(ex.Message + "Check your connection!!");
             }
+        }
+
+        private void textBoxPass_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

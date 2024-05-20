@@ -383,3 +383,5 @@ D:\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\System.Reactive.dll
 D:\LTMCB-DoAnCuoiKy\TableTick\bin\Debug\net7.0-windows\System.Runtime.InteropServices.WindowsRuntime.dll
 D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Child.Form_AddWork.resources
 D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Child.UC_Works.resources
+D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\test.Form1.resources
+D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Pomorodo.resources
