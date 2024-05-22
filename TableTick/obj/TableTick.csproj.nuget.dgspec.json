@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {}
+    "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {}
   },
   "projects": {
-    "D:\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {
+    "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+        "projectUniqueName": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
         "projectName": "TableTick",
-        "projectPath": "D:\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
-        "packagesPath": "C:\\Users\\CoolStar\\.nuget\\packages\\",
-        "outputPath": "D:\\LTMCB-DoAnCuoiKy\\TableTick\\obj\\",
+        "projectPath": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\CoolStar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -84,7 +93,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }
