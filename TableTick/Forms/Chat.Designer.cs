@@ -1,6 +1,6 @@
 ﻿namespace TableTick.Forms
 {
-    partial class Tasks
+    partial class Chat
     {
         /// <summary>
         /// Required designer variable.
@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            panelJob = new Panel();
-            dtpkDate = new DateTimePicker();
             panel3 = new Panel();
+            btnYesterday = new Button();
+            btnTomorrow = new Button();
+            dtpkDate = new DateTimePicker();
             menuStrip1 = new MenuStrip();
             mnsiAddJob = new ToolStripMenuItem();
             mnsiToday = new ToolStripMenuItem();
-            btnTomorrow = new Button();
-            btnYesterday = new Button();
+            panelJob = new Panel();
             panel1.SuspendLayout();
             panel3.SuspendLayout();
             menuStrip1.SuspendLayout();
@@ -52,20 +52,6 @@
             panel1.Size = new Size(811, 370);
             panel1.TabIndex = 0;
             // 
-            // panelJob
-            // 
-            panelJob.Location = new Point(12, 65);
-            panelJob.Name = "panelJob";
-            panelJob.Size = new Size(787, 293);
-            panelJob.TabIndex = 0;
-            // 
-            // dtpkDate
-            // 
-            dtpkDate.Location = new Point(392, 15);
-            dtpkDate.Name = "dtpkDate";
-            dtpkDate.Size = new Size(200, 23);
-            dtpkDate.TabIndex = 1;
-            // 
             // panel3
             // 
             panel3.Controls.Add(btnYesterday);
@@ -76,6 +62,31 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(787, 47);
             panel3.TabIndex = 0;
+            // 
+            // btnYesterday
+            // 
+            btnYesterday.Location = new Point(311, 15);
+            btnYesterday.Name = "btnYesterday";
+            btnYesterday.Size = new Size(75, 23);
+            btnYesterday.TabIndex = 4;
+            btnYesterday.Text = "Hôm qua";
+            btnYesterday.UseVisualStyleBackColor = true;
+            // 
+            // btnTomorrow
+            // 
+            btnTomorrow.Location = new Point(598, 17);
+            btnTomorrow.Name = "btnTomorrow";
+            btnTomorrow.Size = new Size(75, 23);
+            btnTomorrow.TabIndex = 3;
+            btnTomorrow.Text = "Ngày mai";
+            btnTomorrow.UseVisualStyleBackColor = true;
+            // 
+            // dtpkDate
+            // 
+            dtpkDate.Location = new Point(392, 15);
+            dtpkDate.Name = "dtpkDate";
+            dtpkDate.Size = new Size(200, 23);
+            dtpkDate.TabIndex = 1;
             // 
             // menuStrip1
             // 
@@ -97,32 +108,21 @@
             mnsiToday.Size = new Size(68, 20);
             mnsiToday.Text = "Hôm nay";
             // 
-            // btnTomorrow
+            // panelJob
             // 
-            btnTomorrow.Location = new Point(598, 17);
-            btnTomorrow.Name = "btnTomorrow";
-            btnTomorrow.Size = new Size(75, 23);
-            btnTomorrow.TabIndex = 3;
-            btnTomorrow.Text = "Ngày mai";
-            btnTomorrow.UseVisualStyleBackColor = true;
+            panelJob.Location = new Point(12, 65);
+            panelJob.Name = "panelJob";
+            panelJob.Size = new Size(787, 293);
+            panelJob.TabIndex = 0;
             // 
-            // btnYesterday
-            // 
-            btnYesterday.Location = new Point(311, 15);
-            btnYesterday.Name = "btnYesterday";
-            btnYesterday.Size = new Size(75, 23);
-            btnYesterday.TabIndex = 4;
-            btnYesterday.Text = "Hôm qua";
-            btnYesterday.UseVisualStyleBackColor = true;
-            // 
-            // Tasks
+            // Chat
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(811, 370);
             Controls.Add(panel1);
-            Name = "Tasks";
-            Text = "Tasks";
+            Name = "Chat";
+            Text = "Chat";
             panel1.ResumeLayout(false);
             panel3.ResumeLayout(false);
             panel3.PerformLayout();

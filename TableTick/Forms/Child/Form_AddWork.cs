@@ -29,7 +29,7 @@ namespace TableTick.Forms.Child
         {
             InitializeComponent();
         }
-        
+
         private bool isFormValid()
         {
             if (string.IsNullOrWhiteSpace(textBoxWorkTitle.Text))

@@ -42,6 +42,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_AddWork));
             panel1 = new Panel();
             dtpEnd = new Guna.UI2.WinForms.Guna2DateTimePicker();
             dtpStart = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -311,7 +312,9 @@
             Controls.Add(panel1);
             Font = new Font("Century", 9F, FontStyle.Regular, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form_AddWork";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form_AddWork";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

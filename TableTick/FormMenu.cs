@@ -34,7 +34,7 @@ namespace TableTick
             OpenUserControl2(uc);
 
             // Đặt text cho label lblTitle
-            lblTitle.Text = uc.Text;
+            lblTitle.Text = "Home";
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -73,7 +73,7 @@ namespace TableTick
             this.panelDesktopPane.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-            lblTitle.Text = childForm.Text;
+            lblTitle.Text = "Home";
         }
         private void OpenUserControl2(UserControl childForm)
         {
@@ -83,7 +83,7 @@ namespace TableTick
             this.panelDesktopPane.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-            lblTitle.Text = childForm.Text;
+            lblTitle.Text = "Home";
         }
 
         private void Reset()
@@ -91,7 +91,6 @@ namespace TableTick
             DisableButton();
             lblTitle.Text = "HOME";
             panelTitleBar.BackColor = Color.FromArgb(0, 150, 136);
-            panelLogo.BackColor = Color.FromArgb(39, 39, 58);
         }
         private void panelTitleBar_MouseDown(object sender, MouseEventArgs e)
         {
@@ -131,12 +130,13 @@ namespace TableTick
 
         private void btnTasks_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Tasks(), sender);
+            OpenChildForm(new Forms.Chat(), sender);
         }
 
         private void btnCalendar_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.Calendar(), sender);
+            UC_Works form = new UC_Works();
         }
 
         private void btnSetting_Click(object sender, EventArgs e)
@@ -165,5 +165,9 @@ namespace TableTick
 
         }
 
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -8,6 +8,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0F03959-58F9-4BA6-A30A-96E70F123F01}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		..\img\Add User Male.ico = ..\img\Add User Male.ico
+		..\img\Checkmark.ico = ..\img\Checkmark.ico
+		..\img\Sign Up.ico = ..\img\Sign Up.ico
 	EndProjectSection
 EndProject
 Global

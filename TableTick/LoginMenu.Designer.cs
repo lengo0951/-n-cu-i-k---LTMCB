@@ -32,6 +32,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginMenu));
             pictureBox1 = new PictureBox();
             labelLogin = new Label();
             labelUsername = new Label();
@@ -51,9 +52,8 @@
             pictureBox1.Dock = DockStyle.Left;
             pictureBox1.Image = Properties.Resources.admin_login;
             pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(477, 523);
+            pictureBox1.Size = new Size(417, 392);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -63,9 +63,9 @@
             labelLogin.AutoSize = true;
             labelLogin.Font = new Font("Century", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             labelLogin.ForeColor = Color.DarkOrchid;
-            labelLogin.Location = new Point(614, 92);
+            labelLogin.Location = new Point(537, 69);
             labelLogin.Name = "labelLogin";
-            labelLogin.Size = new Size(223, 33);
+            labelLogin.Size = new Size(174, 25);
             labelLogin.TabIndex = 1;
             labelLogin.Text = "Ready to Login";
             // 
@@ -73,9 +73,9 @@
             // 
             labelUsername.AutoSize = true;
             labelUsername.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            labelUsername.Location = new Point(539, 151);
+            labelUsername.Location = new Point(472, 113);
             labelUsername.Name = "labelUsername";
-            labelUsername.Size = new Size(89, 23);
+            labelUsername.Size = new Size(69, 17);
             labelUsername.TabIndex = 2;
             labelUsername.Text = "Username";
             // 
@@ -83,9 +83,9 @@
             // 
             labelPass.AutoSize = true;
             labelPass.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            labelPass.Location = new Point(539, 228);
+            labelPass.Location = new Point(472, 171);
             labelPass.Name = "labelPass";
-            labelPass.Size = new Size(85, 23);
+            labelPass.Size = new Size(66, 17);
             labelPass.TabIndex = 3;
             labelPass.Text = "Password";
             // 
@@ -93,9 +93,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Century", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(726, 308);
+            label1.Location = new Point(635, 231);
             label1.Name = "label1";
-            label1.Size = new Size(180, 23);
+            label1.Size = new Size(146, 20);
             label1.TabIndex = 6;
             label1.Text = "Forget Password";
             // 
@@ -105,10 +105,10 @@
             btnSignIn.FlatAppearance.BorderSize = 0;
             btnSignIn.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnSignIn.ForeColor = SystemColors.HighlightText;
-            btnSignIn.Location = new Point(582, 347);
+            btnSignIn.Location = new Point(509, 260);
             btnSignIn.Margin = new Padding(0);
             btnSignIn.Name = "btnSignIn";
-            btnSignIn.Size = new Size(259, 47);
+            btnSignIn.Size = new Size(227, 35);
             btnSignIn.TabIndex = 7;
             btnSignIn.Text = "Sign In";
             btnSignIn.UseVisualStyleBackColor = false;
@@ -118,9 +118,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(563, 425);
+            label2.Location = new Point(493, 319);
             label2.Name = "label2";
-            label2.Size = new Size(167, 23);
+            label2.Size = new Size(125, 17);
             label2.TabIndex = 8;
             label2.Text = "Don't have account?";
             // 
@@ -129,9 +129,9 @@
             linkLabel1.AutoSize = true;
             linkLabel1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             linkLabel1.LinkColor = Color.CornflowerBlue;
-            linkLabel1.Location = new Point(736, 425);
+            linkLabel1.Location = new Point(644, 319);
             linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(176, 23);
+            linkLabel1.Size = new Size(133, 17);
             linkLabel1.TabIndex = 9;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Create a new account";
@@ -149,14 +149,14 @@
             textBoxUsername.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             textBoxUsername.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             textBoxUsername.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            textBoxUsername.Location = new Point(582, 177);
-            textBoxUsername.Margin = new Padding(3, 5, 3, 5);
+            textBoxUsername.Location = new Point(509, 133);
+            textBoxUsername.Margin = new Padding(3, 4, 3, 4);
             textBoxUsername.Name = "textBoxUsername";
             textBoxUsername.PasswordChar = '\0';
             textBoxUsername.PlaceholderText = "";
             textBoxUsername.SelectedText = "";
             textBoxUsername.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            textBoxUsername.Size = new Size(266, 47);
+            textBoxUsername.Size = new Size(233, 35);
             textBoxUsername.TabIndex = 26;
             // 
             // textBoxPass
@@ -171,23 +171,23 @@
             textBoxPass.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             textBoxPass.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             textBoxPass.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            textBoxPass.Location = new Point(582, 257);
-            textBoxPass.Margin = new Padding(3, 5, 3, 5);
+            textBoxPass.Location = new Point(509, 193);
+            textBoxPass.Margin = new Padding(3, 4, 3, 4);
             textBoxPass.Name = "textBoxPass";
             textBoxPass.PasswordChar = '●';
             textBoxPass.PlaceholderText = "";
             textBoxPass.SelectedText = "";
             textBoxPass.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            textBoxPass.Size = new Size(266, 47);
+            textBoxPass.Size = new Size(233, 35);
             textBoxPass.TabIndex = 27;
             textBoxPass.UseSystemPasswordChar = true;
             textBoxPass.TextChanged += textBoxPass_TextChanged;
             // 
             // LoginMenu
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(929, 523);
+            ClientSize = new Size(813, 392);
             Controls.Add(textBoxPass);
             Controls.Add(textBoxUsername);
             Controls.Add(linkLabel1);
@@ -199,10 +199,8 @@
             Controls.Add(labelLogin);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
-            Margin = new Padding(3, 4, 3, 4);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "LoginMenu";
-            ShowIcon = false;
-            ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
             Load += LoginMenu_Load;

@@ -37,6 +37,7 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             panel1 = new Panel();
+            Text = new Label();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             comboBox1 = new ComboBox();
             materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
@@ -53,6 +54,7 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(Text);
             panel1.Controls.Add(guna2TextBox1);
             panel1.Controls.Add(comboBox1);
             panel1.Controls.Add(materialLabel1);
@@ -63,6 +65,15 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(817, 55);
             panel1.TabIndex = 0;
+            // 
+            // Text
+            // 
+            Text.AutoSize = true;
+            Text.Location = new Point(776, 0);
+            Text.Name = "Text";
+            Text.Size = new Size(40, 15);
+            Text.TabIndex = 5;
+            Text.Text = "Home";
             // 
             // guna2TextBox1
             // 
@@ -213,5 +224,6 @@
         private ComboBox comboBox1;
         private DataGridView dataGridView1;
         private MetroFramework.Controls.MetroContextMenu metroContextMenu1;
+        private Label Text;
     }
 }
