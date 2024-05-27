@@ -463,3 +463,4 @@ D:\Course\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Us
 D:\Course\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\test.Form1.resources
 D:\Course\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Pomorodo.resources
 D:\Course\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Chat.resources
+D:\Course\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.ConfirmEmail.resources

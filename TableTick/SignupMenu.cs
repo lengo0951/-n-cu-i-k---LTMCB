@@ -12,6 +12,12 @@ using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
 using Newtonsoft.Json;
+using System.Net;
+using System.Net.Mail;
+using System.Text.RegularExpressions;
+using System.Runtime.CompilerServices;
+using System.Linq.Expressions;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TableTick
 {
@@ -68,7 +74,8 @@ namespace TableTick
         {
             ShowLoginMenu();
         }
-
+        static Random random = new Random();
+        int otp = random.Next(100000, 999999);
         private void btnSignUp_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(textBoxEmail.Text) || string.IsNullOrEmpty(textBoxUsername.Text) ||
@@ -93,7 +100,6 @@ namespace TableTick
                     MessageBox.Show("Tên người dùng không được chứa các ký tự không hợp lệ như '.', '#', '$', '[', ']'");
                     return; // Thoát khỏi phương thức nếu tên người dùng chứa ký tự không hợp lệ
                 }
-
                 var register = new Register
                 {
                     Email = textBoxEmail.Text,
@@ -101,13 +107,12 @@ namespace TableTick
                     Password = textBoxPass.Text,
                     ConfirmPassword = textBoxConfirmPass.Text,
                 };
-
                 // Sử dụng đúng định dạng của đường dẫn trong Firebase (chú ý thêm ".Text" sau textBoxUsername)
-                FirebaseResponse response = client.Set("users/" + textBoxUsername.Text, register);
-
+                SetResponse response =  client.Set("users/" + textBoxUsername.Text, register);
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    MessageBox.Show("Đăng ký thành công");
+                    ConfirmEmail confirmEmail = new ConfirmEmail(textBoxEmail.Text);
+                    confirmEmail.Show(); 
                 }
                 else
                 {
@@ -115,8 +120,6 @@ namespace TableTick
                 }
             }
         }
-
-
         private void label2_Click(object sender, EventArgs e)
         {
 
