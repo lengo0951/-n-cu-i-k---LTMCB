@@ -10,6 +10,12 @@
     <Compile Update="Forms\Calendar.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Chat_Server.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Child\AJob.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -47,9 +53,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\SettingChild\Security.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Forms\Chat.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\UserControlBlank.cs">

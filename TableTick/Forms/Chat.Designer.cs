@@ -29,118 +29,99 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            panel3 = new Panel();
-            btnYesterday = new Button();
-            btnTomorrow = new Button();
-            dtpkDate = new DateTimePicker();
-            menuStrip1 = new MenuStrip();
-            mnsiAddJob = new ToolStripMenuItem();
-            mnsiToday = new ToolStripMenuItem();
-            panelJob = new Panel();
+            mesage_box = new TextBox();
+            btn_connect = new Button();
+            btn_open_server = new Button();
+            btn_send = new Button();
+            Chat_box = new TextBox();
             panel1.SuspendLayout();
-            panel3.SuspendLayout();
-            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Controls.Add(panel3);
-            panel1.Controls.Add(panelJob);
+            panel1.Controls.Add(mesage_box);
+            panel1.Controls.Add(btn_connect);
+            panel1.Controls.Add(btn_open_server);
+            panel1.Controls.Add(btn_send);
+            panel1.Controls.Add(Chat_box);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(811, 370);
+            panel1.Size = new Size(927, 493);
             panel1.TabIndex = 0;
             // 
-            // panel3
+            // mesage_box
             // 
-            panel3.Controls.Add(btnYesterday);
-            panel3.Controls.Add(btnTomorrow);
-            panel3.Controls.Add(dtpkDate);
-            panel3.Controls.Add(menuStrip1);
-            panel3.Location = new Point(12, 12);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(787, 47);
-            panel3.TabIndex = 0;
+            mesage_box.Location = new Point(9, 17);
+            mesage_box.Multiline = true;
+            mesage_box.Name = "mesage_box";
+            mesage_box.ReadOnly = true;
+            mesage_box.Size = new Size(825, 385);
+            mesage_box.TabIndex = 6;
             // 
-            // btnYesterday
+            // btn_connect
             // 
-            btnYesterday.Location = new Point(311, 15);
-            btnYesterday.Name = "btnYesterday";
-            btnYesterday.Size = new Size(75, 23);
-            btnYesterday.TabIndex = 4;
-            btnYesterday.Text = "Hôm qua";
-            btnYesterday.UseVisualStyleBackColor = true;
+            btn_connect.Location = new Point(839, 196);
+            btn_connect.Name = "btn_connect";
+            btn_connect.Size = new Size(74, 100);
+            btn_connect.TabIndex = 5;
+            btn_connect.Text = "Connect";
+            btn_connect.UseVisualStyleBackColor = true;
+            btn_connect.Click += btn_connect_Click;
             // 
-            // btnTomorrow
+            // btn_open_server
             // 
-            btnTomorrow.Location = new Point(598, 17);
-            btnTomorrow.Name = "btnTomorrow";
-            btnTomorrow.Size = new Size(75, 23);
-            btnTomorrow.TabIndex = 3;
-            btnTomorrow.Text = "Ngày mai";
-            btnTomorrow.UseVisualStyleBackColor = true;
+            btn_open_server.Location = new Point(839, 17);
+            btn_open_server.Name = "btn_open_server";
+            btn_open_server.Size = new Size(75, 97);
+            btn_open_server.TabIndex = 4;
+            btn_open_server.Text = "Server";
+            btn_open_server.UseVisualStyleBackColor = true;
+            btn_open_server.Click += btn_open_server_Click;
             // 
-            // dtpkDate
+            // btn_send
             // 
-            dtpkDate.Location = new Point(392, 15);
-            dtpkDate.Name = "dtpkDate";
-            dtpkDate.Size = new Size(200, 23);
-            dtpkDate.TabIndex = 1;
+            btn_send.BackColor = SystemColors.Highlight;
+            btn_send.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btn_send.ForeColor = SystemColors.WindowText;
+            btn_send.Location = new Point(840, 405);
+            btn_send.Name = "btn_send";
+            btn_send.Size = new Size(75, 76);
+            btn_send.TabIndex = 2;
+            btn_send.Text = "Send";
+            btn_send.UseVisualStyleBackColor = false;
+            btn_send.Click += btn_send_Click;
             // 
-            // menuStrip1
+            // Chat_box
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { mnsiAddJob, mnsiToday });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(787, 24);
-            menuStrip1.TabIndex = 2;
-            // 
-            // mnsiAddJob
-            // 
-            mnsiAddJob.Name = "mnsiAddJob";
-            mnsiAddJob.Size = new Size(73, 20);
-            mnsiAddJob.Text = "Thêm việc";
-            // 
-            // mnsiToday
-            // 
-            mnsiToday.Name = "mnsiToday";
-            mnsiToday.Size = new Size(68, 20);
-            mnsiToday.Text = "Hôm nay";
-            // 
-            // panelJob
-            // 
-            panelJob.Location = new Point(12, 65);
-            panelJob.Name = "panelJob";
-            panelJob.Size = new Size(787, 293);
-            panelJob.TabIndex = 0;
+            Chat_box.Location = new Point(8, 407);
+            Chat_box.Multiline = true;
+            Chat_box.Name = "Chat_box";
+            Chat_box.Size = new Size(826, 74);
+            Chat_box.TabIndex = 1;
             // 
             // Chat
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(811, 370);
+            ClientSize = new Size(927, 493);
             Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Chat";
             Text = "Chat";
             panel1.ResumeLayout(false);
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel1;
-        private Panel panel3;
-        private Button btnYesterday;
-        private Button btnTomorrow;
-        private DateTimePicker dtpkDate;
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem mnsiAddJob;
-        private ToolStripMenuItem mnsiToday;
-        private Panel panelJob;
+        private Button btn_send;
+        private TextBox Chat_box;
+        private Button btn_open_server;
+        private Button btn_connect;
+        private TextBox mesage_box;
     }
 }

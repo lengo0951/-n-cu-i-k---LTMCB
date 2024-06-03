@@ -1,45 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\",
+  "WorkspaceRootPath": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|f:\\uit\\hoc_ki_4\\laptrinhmangcanban\\ltmcb-doancuoiky\\tabletick\\signupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|f:\\uit\\hoc_ki_4\\laptrinhmangcanban\\doan\\ltmcb-doancuoiky\\tabletick\\forms\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat_server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat_server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\child\\uc_works.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\child\\uc_works.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\child\\form_addwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\child\\form_addwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\child\\ajob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\child\\ajob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\signupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:signupmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\loginmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\loginmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:loginmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\plan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\eventform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\calendar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -50,53 +98,196 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chat.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat.cs",
+              "RelativeDocumentMoniker": "Forms\\Chat.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat.cs [Design]",
+              "RelativeToolTip": "Forms\\Chat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:41:03.084Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chat_Server.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.cs",
+              "RelativeDocumentMoniker": "Forms\\Chat_Server.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.cs",
+              "RelativeToolTip": "Forms\\Chat_Server.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T03:12:34.069Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SignupMenu.cs [Design]",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\SignupMenu.cs",
-              "RelativeDocumentMoniker": "SignupMenu.cs",
-              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\SignupMenu.cs [Design]",
-              "RelativeToolTip": "SignupMenu.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "FormMenu.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\FormMenu.cs",
+              "RelativeDocumentMoniker": "FormMenu.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\FormMenu.cs [Design]",
+              "RelativeToolTip": "FormMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T10:09:56.045Z",
+              "WhenOpened": "2024-06-03T03:13:47.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Home.cs",
+              "RelativeDocumentMoniker": "Forms\\Home.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Home.cs [Design]",
+              "RelativeToolTip": "Forms\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T03:13:37.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat.cs",
+              "RelativeDocumentMoniker": "Forms\\Chat.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat.cs",
+              "RelativeToolTip": "Forms\\Chat.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwHkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:39:46.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chat.Designer.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\Chat.Designer.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat.Designer.cs",
+              "RelativeToolTip": "Forms\\Chat.Designer.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAADwv08AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:44:25.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chat_Server.Designer.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\Chat_Server.Designer.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.Designer.cs",
+              "RelativeToolTip": "Forms\\Chat_Server.Designer.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAwwCkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T03:10:35.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Chat_Server.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.cs",
+              "RelativeDocumentMoniker": "Forms\\Chat_Server.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.cs [Design]",
+              "RelativeToolTip": "Forms\\Chat_Server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:28:36.915Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "FormMenu.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\FormMenu.cs",
+              "RelativeDocumentMoniker": "FormMenu.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\FormMenu.cs",
+              "RelativeToolTip": "FormMenu.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAmwIQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T03:13:51.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AJob.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Child\\AJob.cs",
+              "RelativeDocumentMoniker": "Forms\\Child\\AJob.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Child\\AJob.cs [Design]",
+              "RelativeToolTip": "Forms\\Child\\AJob.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:09:29.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form_AddWork.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Child\\Form_AddWork.cs",
+              "RelativeDocumentMoniker": "Forms\\Child\\Form_AddWork.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Child\\Form_AddWork.cs [Design]",
+              "RelativeToolTip": "Forms\\Child\\Form_AddWork.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:09:28.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UC_Works.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Child\\UC_Works.cs",
+              "RelativeDocumentMoniker": "Forms\\Child\\UC_Works.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Child\\UC_Works.cs [Design]",
+              "RelativeToolTip": "Forms\\Child\\UC_Works.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T07:09:26.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SignupMenu.cs [Design]",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\SignupMenu.cs",
+              "RelativeDocumentMoniker": "SignupMenu.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\SignupMenu.cs [Design]",
+              "RelativeToolTip": "SignupMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:09:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LoginMenu.cs [Design]",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\LoginMenu.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\LoginMenu.cs",
               "RelativeDocumentMoniker": "LoginMenu.cs",
               "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\LoginMenu.cs [Design]",
-              "RelativeToolTip": "LoginMenu.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\LTMCB-DoAnCuoiKy\\TableTick\\LoginMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T10:09:19.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "Plan.cs [Design]",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Plan.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Plan.cs",
               "RelativeDocumentMoniker": "Forms\\Plan.cs",
               "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Plan.cs [Design]",
-              "RelativeToolTip": "Forms\\Plan.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Plan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T02:02:28.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "EventForm.Designer.cs",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.Designer.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.Designer.cs",
               "RelativeDocumentMoniker": "Forms\\EventForm.Designer.cs",
-              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.Designer.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.Designer.cs",
               "RelativeToolTip": "Forms\\EventForm.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -104,11 +295,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "UserControlDays.cs",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
               "RelativeDocumentMoniker": "Forms\\UserControlDays.cs",
-              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
               "RelativeToolTip": "Forms\\UserControlDays.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAACIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -116,22 +307,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "UserControlDays.cs [Design]",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs",
               "RelativeDocumentMoniker": "Forms\\UserControlDays.cs",
               "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs [Design]",
-              "RelativeToolTip": "Forms\\UserControlDays.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\UserControlDays.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T14:33:27.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Calendar.cs",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
               "RelativeDocumentMoniker": "Forms\\Calendar.cs",
-              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
               "RelativeToolTip": "Forms\\Calendar.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAIwGYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,11 +330,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "EventForm.cs",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
               "RelativeDocumentMoniker": "Forms\\EventForm.cs",
-              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
               "RelativeToolTip": "Forms\\EventForm.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAkwA0AAACRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,9 +342,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "EventForm.cs [Design]",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs",
               "RelativeDocumentMoniker": "Forms\\EventForm.cs",
               "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\EventForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -161,11 +352,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Calendar.cs [Design]",
-              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
+              "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs",
               "RelativeDocumentMoniker": "Forms\\Calendar.cs",
-              "ToolTip": "D:\\UIT\\NamHaiHK2\\LTMCB\\Project\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs [Design]",
+              "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Calendar.cs [Design]",
+              "RelativeToolTip": "Forms\\Calendar.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-05T13:59:51.476Z"
             }
