@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|solutionrelative:forms\\chat_server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{271C155A-67AF-44B0-8EB0-9D17074D5861}|TableTick.csproj|F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\forms\\chat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Chat.cs [Design]",
               "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat.cs",
               "RelativeDocumentMoniker": "Forms\\Chat.cs",
@@ -115,17 +115,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Chat_Server.cs",
               "DocumentMoniker": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.cs",
               "RelativeDocumentMoniker": "Forms\\Chat_Server.cs",
               "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.cs",
               "RelativeToolTip": "Forms\\Chat_Server.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T03:12:34.069Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -161,7 +160,7 @@
               "RelativeDocumentMoniker": "Forms\\Chat.cs",
               "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat.cs",
               "RelativeToolTip": "Forms\\Chat.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAgwHkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T14:39:46.035Z",
               "EditorCaption": ""
@@ -188,8 +187,7 @@
               "RelativeToolTip": "Forms\\Chat_Server.Designer.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAwwCkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T03:10:35.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T03:10:35.381Z"
             },
             {
               "$type": "Document",
@@ -200,8 +198,7 @@
               "ToolTip": "F:\\UIT\\Hoc_ki_4\\Laptrinhmangcanban\\DoAn\\LTMCB-DoAnCuoiKy\\TableTick\\Forms\\Chat_Server.cs [Design]",
               "RelativeToolTip": "Forms\\Chat_Server.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T10:28:36.915Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-03T10:28:36.915Z"
             },
             {
               "$type": "Document",

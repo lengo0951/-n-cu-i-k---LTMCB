@@ -75,6 +75,8 @@ namespace TableTick.Forms
         private void btn_send_Click(object sender, EventArgs e)
         {
             SendMessage();
+            DisplayMessage(Chat_box.Text);
+            Chat_box.Clear();
         }
 
         private void SendMessage()
@@ -86,7 +88,6 @@ namespace TableTick.Forms
                 {
                     byte[] buffer = Encoding.UTF8.GetBytes(message);
                     stream.Write(buffer, 0, buffer.Length);
-                    Chat_box.Clear();
                 }
                 catch (Exception ex)
                 {
