@@ -69,7 +69,11 @@ namespace TableTick
         {
             ShowLoginMenu();
         }
-
+        private string GenerateUserId()
+        {
+            string userId = Guid.NewGuid().ToString();
+            return userId;
+        }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             ShowLoginMenu();
@@ -85,11 +89,10 @@ namespace TableTick
             }
             else
             {
-                // Kiểm tra xem mật khẩu và mật khẩu xác nhận có khớp nhau không
                 if (textBoxPass.Text != textBoxConfirmPass.Text)
                 {
                     MessageBox.Show("Mật khẩu và mật khẩu xác nhận không khớp!");
-                    return; // Thoát khỏi phương thức nếu mật khẩu không khớp
+                    return;
                 }
 
                 // Kiểm tra xem tên người dùng có chứa các ký tự không hợp lệ không
@@ -98,25 +101,34 @@ namespace TableTick
                    textBoxUsername.Text.Contains("]"))
                 {
                     MessageBox.Show("Tên người dùng không được chứa các ký tự không hợp lệ như '.', '#', '$', '[', ']'");
-                    return; // Thoát khỏi phương thức nếu tên người dùng chứa ký tự không hợp lệ
+                    return;
                 }
-                var register = new Register
+                // Tạo UserId 
+                string userId = GenerateUserId();
+                // Xac nhan email
+                ConfirmEmail confirmEmail = new ConfirmEmail(textBoxEmail.Text);
+                var result = confirmEmail.ShowDialog();
+                if (result == DialogResult.OK && confirmEmail.ConfirmationAccepted)
                 {
-                    Email = textBoxEmail.Text,
-                    Username = textBoxUsername.Text,
-                    Password = textBoxPass.Text,
-                    ConfirmPassword = textBoxConfirmPass.Text,
-                };
-                // Sử dụng đúng định dạng của đường dẫn trong Firebase (chú ý thêm ".Text" sau textBoxUsername)
-                SetResponse response =  client.Set("users/" + textBoxUsername.Text, register);
-                if (response.StatusCode == System.Net.HttpStatusCode.OK)
-                {
-                    ConfirmEmail confirmEmail = new ConfirmEmail(textBoxEmail.Text);
-                    confirmEmail.Show(); 
-                }
-                else
-                {
-                    MessageBox.Show("Đã xảy ra lỗi khi đăng ký. Vui lòng thử lại sau.");
+                    var register = new Register
+                    {
+                        Email = textBoxEmail.Text,
+                        Username = textBoxUsername.Text,
+                        Password = textBoxPass.Text,
+                        ConfirmPassword = textBoxConfirmPass.Text,
+                    };
+                    SetResponse response = client.Set("users/" + userId, register);
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        MessageBox.Show("Đăng ký thành công!");
+                        this.Hide();
+                        LoginMenu loginMenu = new LoginMenu();
+                        loginMenu.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Đã xảy ra lỗi khi đăng ký. Vui lòng thử lại sau.");
+                    }
                 }
             }
         }

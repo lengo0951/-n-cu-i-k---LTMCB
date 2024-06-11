@@ -241,7 +241,6 @@ D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.SettingCh
 D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.SettingChild.Help.resources
 D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.SettingChild.Notification.resources
 D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.SettingChild.Security.resources
-D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Tasks.resources
 D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.LoginMenu.resources
 D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Properties.Resources.resources
 D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.SignupMenu.resources
@@ -498,3 +497,6 @@ F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net
 F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Pomorodo.resources
 F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.csproj.Up2Date
 F:\UIT\Hoc_ki_4\Laptrinhmangcanban\DoAn\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Chat_Server.resources
+D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.ConfirmEmail.resources
+D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Chat.resources
+D:\LTMCB-DoAnCuoiKy\TableTick\obj\Debug\net7.0-windows\TableTick.Forms.Chat_Server.resources

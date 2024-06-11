@@ -11,6 +11,7 @@ using FireSharp;
 using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
+using Newtonsoft.Json;
 
 namespace TableTick
 {
@@ -27,39 +28,77 @@ namespace TableTick
             InitializeComponent();
         }
 
-        private void btnSignIn_Click(object sender, EventArgs e)
+        private async void btnSignIn_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(textBoxUsername.Text) || string.IsNullOrEmpty(textBoxPass.Text))
             {
                 MessageBox.Show("Vui lòng nhập tên người dùng và mật khẩu.");
+                return;
             }
-            else
+
+            try
             {
-                // Lấy dữ liệu từ Firebase cho tên người dùng được nhập vào
-                FirebaseResponse response = client.Get("users/" + textBoxUsername.Text);
+                // Lấy tất cả các UserId
+                FirebaseResponse usersResponse = await client.GetAsync("users");
 
-                if (response.Body != "null") // Kiểm tra xem response có dữ liệu hay không
+                if (usersResponse.Body != "null")
                 {
-                    // Chuyển đổi dữ liệu JSON thành đối tượng Register
-                    Register register = response.ResultAs<Register>();
+                    var users = JsonConvert.DeserializeObject<Dictionary<string, Register>>(usersResponse.Body);
 
-                    // Kiểm tra mật khẩu
-                    if (textBoxPass.Text == register.Password)
+                    // Tìm UserId dựa trên Username
+                    string userId = users.FirstOrDefault(u => u.Value.Username == textBoxUsername.Text).Key;
+
+                    if (!string.IsNullOrEmpty(userId))
                     {
-                        MessageBox.Show("Đăng nhập thành công");
-                        this.Hide();
-                        FormMenu formMenu = new FormMenu();
-                        formMenu.ShowDialog();
+                        FirebaseResponse response = await client.GetAsync("users/" + userId);
+
+                        if (response.Body != "null") // Kiểm tra xem response có dữ liệu hay không
+                        {
+                            // Chuyển đổi dữ liệu JSON thành đối tượng Register
+                            Register register = response.ResultAs<Register>();
+
+                            // Kiểm tra mật khẩu
+                            if (textBoxPass.Text == register.Password)
+                            {
+                                UserSession.CurrentUserSession = new UserSession
+                                {
+                                    UserId = userId.ToString(),
+                                    Username = register.Username,
+                                    Email = register.Email,
+                                    Fullname = register.Fullname,
+                                    Password = register.Password,
+                                    ConfirmPassword = register.ConfirmPassword,
+                                    PhoneNumber = register.PhoneNumber
+                                };
+
+                                MessageBox.Show("Đăng nhập thành công");
+                                this.Hide();
+                                FormMenu formMenu = new FormMenu();
+                                formMenu.ShowDialog();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Mật khẩu không chính xác.");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Tên người dùng không tồn tại.");
+                        }
                     }
                     else
                     {
-                        MessageBox.Show("Mật khẩu không chính xác.");
+                        MessageBox.Show("Tên người dùng không tồn tại.");
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Tên người dùng không tồn tại.");
+                    MessageBox.Show("Hiện không có người dùng nào trong hệ thống.");
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi kết nối với Firebase: " + ex.Message);
             }
         }
 

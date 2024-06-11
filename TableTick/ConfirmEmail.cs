@@ -68,7 +68,6 @@ namespace TableTick
             {
                 ConfirmationAccepted = true;
                 DialogResult = DialogResult.OK;
-                MessageBox.Show("Dang ki tai khoan thanh cong!");
                 closeTimer.Start();
             }
             else
