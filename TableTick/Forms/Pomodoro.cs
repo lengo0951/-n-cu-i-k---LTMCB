@@ -21,11 +21,27 @@ namespace TableTick.Forms
         public Pomodoro()
         {
             InitializeComponent();
+            tomatoWorking.Hide();
+            tomatoBreaking.Hide();
         }
 
 
         private void reset(int time, bool isWork)
         {
+            ProgressBar.Maximum = 1500;
+            if (isWork)
+            {
+                status.Text = "Working Time !!!";
+                tomatoWorking.Show();
+                tomatoBreaking.Hide();
+            }
+            else
+            {
+                ProgressBar.Maximum = shortBreak < 0 ? 20 * 60 : 5 * 60;
+                status.Text = "Breaking Time !!!";
+                tomatoBreaking.Show();
+                tomatoWorking.Hide();
+            }
             timeLeft = time;
             timer = new System.Windows.Forms.Timer();
             timer.Interval = 1000; // 1 second interval
@@ -33,14 +49,7 @@ namespace TableTick.Forms
             ProgressBar.Value = time;
             TimeSpan timeSpan = TimeSpan.FromSeconds(time);
             ProgressBar.Text = timeSpan.ToString(@"mm\:ss");
-            if (isWork)
-            {
-                status.Text = "Working Time !!!";
-            }
-            else
-            {
-                status.Text = "Breaking Time !!!";
-            }
+
         }
         private void Timer_Tick(object sender, EventArgs e)
         {
@@ -53,7 +62,7 @@ namespace TableTick.Forms
                 ProgressBar.Text = timeSpan.ToString(@"mm\:ss");
                 return;
             }
-            if (shortBreak > 0)
+            if (shortBreak >= 0)
             {
                 toggle = !toggle;
             }
@@ -91,16 +100,17 @@ namespace TableTick.Forms
             status.Text = "Working Time !!!!";
         }
 
-        private void pauseButton_Click(object sender, EventArgs e)
-        {
-            timer.Stop();
-            isRunning = false;
-        }
-
         private void resetButton_Click(object sender, EventArgs e)
         {
+            toggle = false;
+            isRunning = false;
+            timer.Stop();
+            status.Text = "Pomodoro Timer.";
             shortBreak = 3;
-            reset(1500, true);
+            ProgressBar.Value = 1500;
+            ProgressBar.Text = @"25:00";
+            tomatoBreaking.Hide();
+            tomatoWorking.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
