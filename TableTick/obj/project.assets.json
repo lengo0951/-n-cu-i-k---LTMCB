@@ -1431,19 +1431,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CoolStar\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Source\\Repos\\lengo0951\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
       "projectName": "TableTick",
-      "projectPath": "D:\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
-      "packagesPath": "C:\\Users\\CoolStar\\.nuget\\packages\\",
-      "outputPath": "D:\\LTMCB-DoAnCuoiKy\\TableTick\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Source\\Repos\\lengo0951\\LTMCB-DoAnCuoiKy\\TableTick\\TableTick.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Source\\Repos\\lengo0951\\LTMCB-DoAnCuoiKy\\TableTick\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CoolStar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1463,6 +1463,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1513,7 +1518,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },

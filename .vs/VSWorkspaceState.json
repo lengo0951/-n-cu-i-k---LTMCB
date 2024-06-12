@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\img",
+    "\\TableTick",
+    "\\TableTick\\Forms"
   ],
+  "SelectedNode": "\\TableTick\\Forms\\Chat.cs",
   "PreviewInSolutionExplorer": false
 }

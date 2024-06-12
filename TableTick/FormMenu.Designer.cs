@@ -54,7 +54,7 @@
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(200, 487);
+            panelMenu.Size = new Size(228, 552);
             panelMenu.TabIndex = 0;
             // 
             // btnSetting
@@ -66,9 +66,9 @@
             btnSetting.ForeColor = SystemColors.ButtonHighlight;
             btnSetting.Image = Properties.Resources.settings1;
             btnSetting.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSetting.Location = new Point(0, 320);
+            btnSetting.Location = new Point(0, 364);
             btnSetting.Name = "btnSetting";
-            btnSetting.Size = new Size(198, 80);
+            btnSetting.Size = new Size(226, 91);
             btnSetting.TabIndex = 6;
             btnSetting.Text = "  Setting";
             btnSetting.TextAlign = ContentAlignment.MiddleLeft;
@@ -83,13 +83,13 @@
             btnNote.FlatStyle = FlatStyle.Flat;
             btnNote.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btnNote.ForeColor = SystemColors.ButtonHighlight;
-            btnNote.Image = Properties.Resources.Note;
+            btnNote.Image = (Image)resources.GetObject("btnNote.Image");
             btnNote.ImageAlign = ContentAlignment.MiddleLeft;
-            btnNote.Location = new Point(0, 240);
+            btnNote.Location = new Point(0, 273);
             btnNote.Name = "btnNote";
-            btnNote.Size = new Size(198, 80);
+            btnNote.Size = new Size(226, 91);
             btnNote.TabIndex = 5;
-            btnNote.Text = "  Note";
+            btnNote.Text = " Pomodoro";
             btnNote.TextAlign = ContentAlignment.MiddleLeft;
             btnNote.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnNote.UseVisualStyleBackColor = true;
@@ -104,9 +104,9 @@
             btnTasks.ForeColor = SystemColors.ButtonHighlight;
             btnTasks.Image = Properties.Resources.Chat1;
             btnTasks.ImageAlign = ContentAlignment.MiddleLeft;
-            btnTasks.Location = new Point(0, 160);
+            btnTasks.Location = new Point(0, 182);
             btnTasks.Name = "btnTasks";
-            btnTasks.Size = new Size(198, 80);
+            btnTasks.Size = new Size(226, 91);
             btnTasks.TabIndex = 4;
             btnTasks.Text = "  Chat";
             btnTasks.TextAlign = ContentAlignment.MiddleLeft;
@@ -123,9 +123,9 @@
             btnCalendar.ForeColor = SystemColors.ButtonHighlight;
             btnCalendar.Image = Properties.Resources.calendar1;
             btnCalendar.ImageAlign = ContentAlignment.MiddleLeft;
-            btnCalendar.Location = new Point(0, 80);
+            btnCalendar.Location = new Point(0, 91);
             btnCalendar.Name = "btnCalendar";
-            btnCalendar.Size = new Size(198, 80);
+            btnCalendar.Size = new Size(226, 91);
             btnCalendar.TabIndex = 3;
             btnCalendar.Text = "  Calendar";
             btnCalendar.TextAlign = ContentAlignment.MiddleLeft;
@@ -145,7 +145,7 @@
             btnHome.Location = new Point(0, 0);
             btnHome.Margin = new Padding(3, 0, 3, 3);
             btnHome.Name = "btnHome";
-            btnHome.Size = new Size(198, 80);
+            btnHome.Size = new Size(226, 91);
             btnHome.TabIndex = 1;
             btnHome.Text = "  Home";
             btnHome.TextAlign = ContentAlignment.MiddleLeft;
@@ -159,9 +159,9 @@
             panelTitleBar.BorderStyle = BorderStyle.FixedSingle;
             panelTitleBar.Controls.Add(lblTitle);
             panelTitleBar.Dock = DockStyle.Top;
-            panelTitleBar.Location = new Point(200, 0);
+            panelTitleBar.Location = new Point(228, 0);
             panelTitleBar.Name = "panelTitleBar";
-            panelTitleBar.Size = new Size(827, 80);
+            panelTitleBar.Size = new Size(946, 90);
             panelTitleBar.TabIndex = 1;
             // 
             // lblTitle
@@ -170,9 +170,9 @@
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Bold, GraphicsUnit.Point);
             lblTitle.ForeColor = Color.White;
-            lblTitle.Location = new Point(392, 27);
+            lblTitle.Location = new Point(449, 31);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(68, 25);
+            lblTitle.Size = new Size(85, 29);
             lblTitle.TabIndex = 0;
             lblTitle.Text = "Home";
             lblTitle.TextAlign = ContentAlignment.MiddleCenter;
@@ -180,18 +180,18 @@
             // panelDesktopPane
             // 
             panelDesktopPane.Dock = DockStyle.Fill;
-            panelDesktopPane.Location = new Point(200, 80);
+            panelDesktopPane.Location = new Point(228, 90);
             panelDesktopPane.Name = "panelDesktopPane";
-            panelDesktopPane.Size = new Size(827, 407);
+            panelDesktopPane.Size = new Size(946, 462);
             panelDesktopPane.TabIndex = 2;
             panelDesktopPane.Paint += panelDesktopPane_Paint;
             // 
             // FormMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(1027, 487);
+            ClientSize = new Size(1174, 552);
             Controls.Add(panelDesktopPane);
             Controls.Add(panelTitleBar);
             Controls.Add(panelMenu);

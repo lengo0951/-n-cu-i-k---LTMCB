@@ -37,6 +37,9 @@
     <Compile Update="Forms\Plan.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\Pomodoro.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\Setting.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,9 +65,6 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="LoginMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Pomodoro.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SignupMenu.cs">

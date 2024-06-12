@@ -120,7 +120,7 @@ namespace TableTick
 
         private void btnNote_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.Note(), sender);
+            OpenChildForm(new Forms.ChildPomodoro(), sender);
         }
 
         private void btnPlan_Click(object sender, EventArgs e)
