@@ -130,7 +130,7 @@ namespace TableTick
 
         private void btnTasks_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.ChatForm(), sender);
+            OpenChildForm(new Forms.Chat(), sender);
         }
 
         private void btnCalendar_Click(object sender, EventArgs e)
