@@ -180,12 +180,13 @@
             comboBoxCategory.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             comboBoxCategory.ForeColor = Color.FromArgb(68, 88, 112);
             comboBoxCategory.ItemHeight = 30;
-            comboBoxCategory.Items.AddRange(new object[] { "Lập Trình Mạng", "Lập Trình Web", "Mật Mã Học" });
+            comboBoxCategory.Items.AddRange(new object[] { "Lập Trình Mạng", "Lập Trình Web", "Mật Mã Học", "Thêm danh mục mới..." });
             comboBoxCategory.Location = new Point(150, 138);
             comboBoxCategory.Name = "comboBoxCategory";
             comboBoxCategory.ShadowDecoration.CustomizableEdges = customizableEdges10;
             comboBoxCategory.Size = new Size(369, 36);
             comboBoxCategory.TabIndex = 9;
+            comboBoxCategory.SelectedIndexChanged += comboBoxCategory_SelectedIndexChanged;
             // 
             // materialLabel5
             // 

@@ -111,5 +111,30 @@ namespace TableTick.Forms.Child
         {
             CloseThis();
         }
+
+        private void comboBoxCategory_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (comboBoxCategory.SelectedItem.ToString() == "Thêm danh mục mới...")
+                {
+                    string newCategory = Microsoft.VisualBasic.Interaction.InputBox("Nhập tên danh mục mới:", "Thêm danh mục mới", "");
+
+                    if (!string.IsNullOrWhiteSpace(newCategory))
+                    {
+                        comboBoxCategory.Items.Insert(comboBoxCategory.Items.Count - 1, newCategory);
+                        comboBoxCategory.SelectedItem = newCategory;
+                    }
+                    else
+                    {
+                        comboBoxCategory.SelectedIndex = -1;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi" + ex.Message);
+            }
+        }
     }
 }
