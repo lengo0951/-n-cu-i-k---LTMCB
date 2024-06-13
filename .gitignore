@@ -9,9 +9,15 @@
 *.user
 *.userosscache
 *.sln.docstates
-
 # User-specific files (MonoDevelop/Xamarin Studio)
-*.userprefs
+# Ignore Visual Studio temporary files, build results, and
+# include directory-based project system files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # Mono auto generated files
 mono_crash.*
