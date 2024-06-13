@@ -29,23 +29,17 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             panel1 = new Panel();
+            comboBoxSort = new MetroFramework.Controls.MetroComboBox();
             TextLabel = new Label();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             labelsort = new MaterialSkin.Controls.MaterialLabel();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             panel2 = new Panel();
             dataGridView1 = new DataGridView();
             metroContextMenu1 = new MetroFramework.Controls.MetroContextMenu(components);
-            comboBoxSort = new MetroFramework.Controls.MetroComboBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -56,15 +50,25 @@
             panel1.BackColor = Color.White;
             panel1.Controls.Add(comboBoxSort);
             panel1.Controls.Add(TextLabel);
-            panel1.Controls.Add(guna2TextBox1);
             panel1.Controls.Add(labelsort);
-            panel1.Controls.Add(guna2Button2);
             panel1.Controls.Add(guna2Button1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(5, 5);
             panel1.Name = "panel1";
             panel1.Size = new Size(817, 55);
             panel1.TabIndex = 0;
+            // 
+            // comboBoxSort
+            // 
+            comboBoxSort.FormattingEnabled = true;
+            comboBoxSort.ItemHeight = 23;
+            comboBoxSort.Items.AddRange(new object[] { "Title", "Content", "Category", "Start", "End" });
+            comboBoxSort.Location = new Point(231, 12);
+            comboBoxSort.Name = "comboBoxSort";
+            comboBoxSort.Size = new Size(296, 29);
+            comboBoxSort.TabIndex = 6;
+            comboBoxSort.UseSelectable = true;
+            comboBoxSort.SelectedIndexChanged += comboBoxSort_SelectedIndexChanged_1;
             // 
             // TextLabel
             // 
@@ -76,63 +80,21 @@
             TextLabel.Text = "Home";
             TextLabel.Visible = false;
             // 
-            // guna2TextBox1
-            // 
-            guna2TextBox1.Anchor = AnchorStyles.Right;
-            guna2TextBox1.CustomizableEdges = customizableEdges1;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(579, 18);
-            guna2TextBox1.Margin = new Padding(3, 4, 3, 4);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2TextBox1.Size = new Size(207, 23);
-            guna2TextBox1.TabIndex = 4;
-            // 
             // labelsort
             // 
             labelsort.AutoSize = true;
             labelsort.Depth = 0;
             labelsort.Font = new Font("Roboto", 14F, FontStyle.Regular, GraphicsUnit.Pixel);
-            labelsort.Location = new Point(283, 18);
+            labelsort.Location = new Point(159, 18);
             labelsort.MouseState = MaterialSkin.MouseState.HOVER;
             labelsort.Name = "labelsort";
             labelsort.Size = new Size(52, 19);
             labelsort.TabIndex = 2;
             labelsort.Text = "Sort By";
             // 
-            // guna2Button2
-            // 
-            guna2Button2.CustomizableEdges = customizableEdges3;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.Dock = DockStyle.Left;
-            guna2Button2.Font = new Font("Century", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button2.ForeColor = Color.Black;
-            guna2Button2.Image = Properties.Resources.Audit;
-            guna2Button2.ImageSize = new Size(30, 25);
-            guna2Button2.Location = new Point(131, 0);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Button2.Size = new Size(146, 55);
-            guna2Button2.TabIndex = 1;
-            guna2Button2.Text = "Assign Work";
-            guna2Button2.Click += guna2Button2_Click;
-            // 
             // guna2Button1
             // 
-            guna2Button1.CustomizableEdges = customizableEdges5;
+            guna2Button1.CustomizableEdges = customizableEdges3;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -144,7 +106,7 @@
             guna2Button1.ImageSize = new Size(25, 25);
             guna2Button1.Location = new Point(0, 0);
             guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2Button1.Size = new Size(131, 55);
             guna2Button1.TabIndex = 0;
             guna2Button1.Text = "Add Work";
@@ -167,15 +129,15 @@
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.BackgroundColor = Color.White;
             dataGridView1.BorderStyle = BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = SystemColors.Control;
-            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle1.NullValue = null;
-            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(0, 192, 0);
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.NullValue = null;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(0, 192, 0);
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Dock = DockStyle.Fill;
             dataGridView1.Location = new Point(0, 0);
@@ -192,17 +154,6 @@
             metroContextMenu1.ImageScalingSize = new Size(20, 20);
             metroContextMenu1.Name = "metroContextMenu1";
             metroContextMenu1.Size = new Size(61, 4);
-            // 
-            // comboBoxSort
-            // 
-            comboBoxSort.FormattingEnabled = true;
-            comboBoxSort.ItemHeight = 23;
-            comboBoxSort.Location = new Point(351, 12);
-            comboBoxSort.Name = "comboBoxSort";
-            comboBoxSort.Size = new Size(121, 29);
-            comboBoxSort.TabIndex = 6;
-            comboBoxSort.UseSelectable = true;
-            comboBoxSort.SelectedIndexChanged += comboBoxSort_SelectedIndexChanged_1;
             // 
             // UC_Works
             // 
@@ -226,9 +177,7 @@
         private Panel panel1;
         private Panel panel2;
         private MaterialSkin.Controls.MaterialLabel labelsort;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private DataGridView dataGridView1;
         private MetroFramework.Controls.MetroContextMenu metroContextMenu1;
         private Label TextLabel;

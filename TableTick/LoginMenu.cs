@@ -65,10 +65,8 @@ namespace TableTick
                                     UserId = userId.ToString(),
                                     Username = register.Username,
                                     Email = register.Email,
-                                    Fullname = register.Fullname,
                                     Password = register.Password,
                                     ConfirmPassword = register.ConfirmPassword,
-                                    PhoneNumber = register.PhoneNumber
                                 };
 
                                 MessageBox.Show("Đăng nhập thành công");

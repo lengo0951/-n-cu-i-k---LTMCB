@@ -38,7 +38,6 @@ namespace TableTick
             code = rnd.Next(100000, 999999);
             closeTimer = new System.Windows.Forms.Timer();
             closeTimer.Interval = 5000; // 5000 milliseconds = 5 seconds
-            closeTimer.Tick += CloseTimer_Tick;
         }
         private void ConfirmEmail_Load(object sender, EventArgs e)
         {
@@ -47,8 +46,8 @@ namespace TableTick
 
             message.From = new MailAddress("22520951@gm.uit.edu.vn");
             message.To.Add(new MailAddress(email));
-            message.Subject = "Signup TableTick Confirmation";
-            message.Body = "Mã OTP xác nhận: " + code;
+            message.Subject = "TableTick Signup Confirmation";
+            message.Body = "Mã OTP xác nhận mail la: " + code;
 
             smtpClient.Port = 587;
             smtpClient.Host = "smtp.gmail.com";

@@ -126,7 +126,7 @@ namespace TableTick.Forms.Child
 
         private void comboBoxSort_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void comboBoxSort_SelectedIndexChanged_1(object sender, EventArgs e)

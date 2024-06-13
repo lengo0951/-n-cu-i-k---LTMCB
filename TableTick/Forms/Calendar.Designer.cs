@@ -143,10 +143,11 @@
             // 
             // LBDATE
             // 
-            LBDATE.Font = new Font("Georgia", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point);
+            LBDATE.AutoSize = true;
+            LBDATE.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             LBDATE.Location = new Point(107, 370);
             LBDATE.Name = "LBDATE";
-            LBDATE.Size = new Size(514, 34);
+            LBDATE.Size = new Size(153, 30);
             LBDATE.TabIndex = 0;
             LBDATE.Text = "MONTH YEAR";
             LBDATE.TextAlign = ContentAlignment.BottomCenter;

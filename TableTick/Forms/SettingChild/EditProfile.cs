@@ -1,6 +1,7 @@
 ﻿using FireSharp.Config;
 using FireSharp.Interfaces;
 using FireSharp.Response;
+using Firebase.Storage;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,10 +40,69 @@ namespace TableTick.Forms.SettingChild
         {
         }
 
-        private void btnEditAvatar_Click(object sender, EventArgs e)
+        private async void btnEditAvatar_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            //edit avatar
+            ofd.Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp";
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                string filePath = ofd.FileName;
+                string fileName = Path.GetFileName(filePath);
+
+                try
+                {
+                    // Upload the file to Firebase Storage
+                    var stream = File.Open(filePath, FileMode.Open);
+                    var task = new FirebaseStorage("tabletick-33966.appspot.com")
+                        .Child("avatars")
+                        .Child(UserSession.CurrentUserSession.UserId + "_" + fileName)
+                        .PutAsync(stream);
+
+                    // Track progress
+                    task.Progress.ProgressChanged += (s, e) =>
+                        Console.WriteLine($"Progress: {e.Percentage} %");
+
+                    var downloadUrl = await task;
+
+                    // Save the download URL to the user's profile
+                    if (UserSession.CurrentUserSession != null)
+                    {
+                        UserSession.CurrentUserSession.AvatarUrl = downloadUrl;
+
+                        // Update the user's profile in the Realtime Database
+                        var updatedUser = new Register
+                        {
+                            Email = UserSession.CurrentUserSession.Email,
+                            PhoneNumber = UserSession.CurrentUserSession.PhoneNumber,
+                            Password = UserSession.CurrentUserSession.Password,
+                            Fullname = UserSession.CurrentUserSession.Fullname,
+                            Username = UserSession.CurrentUserSession.Username,
+                            AvatarUrl = UserSession.CurrentUserSession.AvatarUrl // Ensure this property exists in the Register class
+                        };
+
+                        SetResponse response = await client.SetAsync("users/" + UserSession.CurrentUserSession.UserId, updatedUser);
+
+                        if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                        {
+                            MessageBox.Show("Cập nhật ảnh đại diện thành công.");
+                            // Optionally, update the PictureBox to show the new avatar
+                            pictureBoxAvatar.Image = Image.FromFile(filePath);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Cập nhật ảnh đại diện thất bại. Vui lòng thử lại.");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không tìm thấy thông tin người dùng. Vui lòng đăng nhập lại.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Lỗi: {ex.Message}");
+                }
+            }
         }
 
         private void EditProfile_Load(object sender, EventArgs e)
@@ -63,6 +123,10 @@ namespace TableTick.Forms.SettingChild
                     textboxPhone.Text = UserSession.CurrentUserSession.PhoneNumber;
                     textboxPassword.Text = UserSession.CurrentUserSession.Password;
                     textboxFullname.Text = UserSession.CurrentUserSession.Fullname;
+                    if (!string.IsNullOrEmpty(UserSession.CurrentUserSession.AvatarUrl))
+                    {
+                        pictureBoxAvatar.Load(UserSession.CurrentUserSession.AvatarUrl);
+                    }
                 }
                 else
                 {
@@ -94,7 +158,8 @@ namespace TableTick.Forms.SettingChild
                         PhoneNumber = UserSession.CurrentUserSession.PhoneNumber,
                         Password = UserSession.CurrentUserSession.Password,
                         Fullname = UserSession.CurrentUserSession.Fullname,
-                        Username = UserSession.CurrentUserSession.Username
+                        Username = UserSession.CurrentUserSession.Username,
+                        AvatarUrl = UserSession.CurrentUserSession.AvatarUrl
                     };
 
                     // Cập nhật thông tin người dùng trong Firebase

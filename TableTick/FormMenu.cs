@@ -122,15 +122,14 @@ namespace TableTick
         {
             OpenChildForm(new Forms.Pomodoro(), sender);
         }
+        private void btnTasks_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.Chat(), sender);
+        }
 
         private void btnPlan_Click(object sender, EventArgs e)
         {
             OpenChildForm(new Forms.Plan(), sender);
-        }
-
-        private void btnTasks_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.Chat(), sender);
         }
 
         private void btnCalendar_Click(object sender, EventArgs e)
@@ -169,5 +168,6 @@ namespace TableTick
         {
 
         }
+
     }
 }

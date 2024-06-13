@@ -12,7 +12,7 @@ namespace TableTick.Forms
         private TcpClient client;
         private NetworkStream stream;
         private readonly string serverIp = "127.0.0.1";
-        private readonly int serverPort = 9000;
+        private readonly int serverPort = 8888;
         private bool connected = false;
 
         public Chat()

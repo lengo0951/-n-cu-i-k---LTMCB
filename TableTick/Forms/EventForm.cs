@@ -1,32 +1,33 @@
 ﻿using System;
 using System.Windows.Forms;
-using Firebase.Database;
-using Firebase.Database.Query;
-using FireSharp;
-using FirebaseClient = Firebase.Database.FirebaseClient; // Alias for Firebase.Database
-//using FirebaseClient = FireSharp.FirebaseClient; // Alias for FireSharp, uncomment this line if you want to use FireSharp
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
 
 namespace TableTick.Forms
 {
     public partial class EventForm : Form
     {
-        // Khai báo biến cho FirebaseClient
-        private readonly FirebaseClient firebase = new FirebaseClient("https://tabletick-33966-default-rtdb.asia-southeast1.firebasedatabase.app/");
+        IFirebaseConfig config = new FirebaseConfig()
+        {
+            AuthSecret = "Tt2HjOm0bxRwwUL9NFsg6ONtEP3piyFWSQxXAK78",
+            BasePath = "https://tabletick-33966-default-rtdb.asia-southeast1.firebasedatabase.app/"
+        };
+        IFirebaseClient client;
 
         public EventForm()
         {
             InitializeComponent();
+            client = new FireSharp.FirebaseClient(config);
         }
+
         private void EventForm_Load(object sender, EventArgs e)
         {
-            // call the static var we declare
-            txdate.Text = Calendar.static_month+"/"+UserControlDays.static_day + "/" + Calendar.static_year;
+            txdate.Text = $"{Calendar.static_month}/{UserControlDays.static_day}/{Calendar.static_year}";
         }
 
         private async void btnSave_Click(object sender, EventArgs e)
         {
-            // Lưu ý: txdate và txevent cần phải được khai báo trong Form của bạn,
-            // và phải là các control TextBox hoặc các control tương tự để nhập dữ liệu.
             var date = txdate.Text;
             var eventName = txevent.Text;
 
@@ -36,15 +37,19 @@ namespace TableTick.Forms
                 EventName = eventName
             };
 
-            // Thêm sự kiện mới vào Firebase Database vào node "tbl_calendar"
-            await firebase
-                .Child("tbl_calendar")
-                .PostAsync(eventItem);
+            string formattedDate = $"{Calendar.static_year}-{Calendar.static_month}-{UserControlDays.static_day}";
 
-            MessageBox.Show("Event saved to Firebase Database!");
+            try
+            {
+                SetResponse response = await client.SetAsync($"tbl_calendar/{formattedDate}", eventItem);
+                MessageBox.Show("Đã thêm sự kiện!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi: {ex.Message}");
+            }
         }
 
-        // Định nghĩa class Event cho dữ liệu sự kiện
         public class Event
         {
             public string Date { get; set; }
